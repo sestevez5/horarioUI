@@ -7,9 +7,21 @@ export class HorarioUI {
    
 
    public escribirHola() {
-      console.log('hola');
+
 
       var s = Snap("#xaa");
+      var padre = s.parent();
+      console.log(padre.node.clientHeight);
+      console.log(padre.node.clientWidth);
+      s.attr({'width':padre.node.clientHeight/2, 'height': padre.node.clientWidth/2, 'fill':'red'})
+      console.log(s.node.clientHeight)
+
+      console.log(padre.node.style.backgroundColor);
+      console.log(padre.node.attributeStyleMap);
+      console.log(padre.node.computedStyleMap().getAll('background-color').toString());
+
+
+
    // Circle with 80px radius 
 
 
@@ -17,11 +29,6 @@ export class HorarioUI {
       //a('#svg');
 
 
-
-      
-      
-      
-      // s.circle(90,120,80);
 
    }
 
