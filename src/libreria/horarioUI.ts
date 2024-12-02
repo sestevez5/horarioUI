@@ -1,4 +1,6 @@
 import Snap from 'snapsvg';
+import * as d3 from "d3";
+
 
 
 export class HorarioUI {
@@ -9,39 +11,41 @@ export class HorarioUI {
    public escribirHola() {
       console.log()
 
-
-      var s = Snap(this.elementoRaiz);
-      var padre = s.parent();
-      console.log(padre.node.clientHeight);
-      console.log(padre.node.clientWidth);
-      s.attr({'width':padre.node.clientHeight/2, 'height': padre.node.clientWidth/2, 'fill':'red'})
-      console.log(s.node.clientHeight)
-
-      console.log(padre.node.style.backgroundColor);
-      console.log(padre.node.attributeStyleMap);
-      console.log(padre.node.computedStyleMap().getAll('background-color').toString());
+var svg = d3.select("#xaa").style("background-color","grey");
+var MisDatos = ["a","b","c"]
 
 
 
-   // Circle with 80px radius 
+console.log(svg.selectAll("p"))
 
+var plantillaG =  this.anyadirPlantilla();
+var sesionesG = this.anyadirSesionesAPlantilla();
+var actividadesG = this.anyadirActividades();
 
+    
+};
 
-      //a('#svg');
+anyadirPlantilla(){
 
+}
 
+anyadirSesionesAPlantilla(){
 
-   }
+}
 
-   public obtenerObjetoRaiz() {
+anyadirActividades(){
 
-      var s = Snap('#'+this.elementoRaiz);
+}
 
-      console.log(s);
-   }
+anyadirRectangulos(_svg: any, _misDatos: Array<string>){
+
+   _svg.selectAll("rect").data(_misDatos).join("rect").text(function(d,i){return d+i})
+
+}
+      
 
    constructor(elementoRaiz: string) {
-      this.elementoRaiz = elementoRaiz;  
+
    }
 
 
