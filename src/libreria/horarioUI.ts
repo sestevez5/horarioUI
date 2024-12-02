@@ -1,5 +1,5 @@
 import Snap from 'snapsvg';
-import * as d3 from 'd3';
+
 
 export class HorarioUI {
 
@@ -7,9 +7,10 @@ export class HorarioUI {
    
 
    public escribirHola() {
+      console.log()
 
 
-      var s = Snap("#xaa");
+      var s = Snap(this.elementoRaiz);
       var padre = s.parent();
       console.log(padre.node.clientHeight);
       console.log(padre.node.clientWidth);
@@ -30,6 +31,13 @@ export class HorarioUI {
 
 
 
+   }
+
+   public obtenerObjetoRaiz() {
+
+      var s = Snap('#'+this.elementoRaiz);
+
+      console.log(s);
    }
 
    constructor(elementoRaiz: string) {
