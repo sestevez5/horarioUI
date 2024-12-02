@@ -1,4 +1,3 @@
-import Snap from 'snapsvg';
 import * as d3 from "d3";
 
 
