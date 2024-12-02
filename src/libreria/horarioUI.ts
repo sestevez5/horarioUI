@@ -8,6 +8,7 @@ export class HorarioUI {
    
 
    public escribirHola() {
+      console.log()
 
 var svg = d3.select("#xaa").style("background-color","grey");
 var MisDatos = ["a","b","c"]

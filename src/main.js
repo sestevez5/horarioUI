@@ -1,10 +1,10 @@
 import * as hg from './libreria/horarioUI';
 
-function init(){
+function init(elementoRaiz){
 
-var x = new hg.HorarioUI()
+var x = new hg.HorarioUI('horarioUI')
 
-x.escribirHola()
+x.obtenerObjetoRaiz();
 
 }
 
