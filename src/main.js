@@ -2,9 +2,9 @@ import * as hg from './libreria/horarioUI';
 
 function init(elementoRaiz){
 
-var x = new hg.HorarioUI('horarioUI')
+var x = new hg.HorarioUI('div#horarioUI')
 
-x.obtenerObjetoRaiz();
+
 
 }
 
