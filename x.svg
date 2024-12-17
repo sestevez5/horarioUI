@@ -1,0 +1,1163 @@
+<svg width="635.609" height="556.969">
+    <rect width="100%" height="100%" id="fondografico" fill="white" rx="0" ry="0"></rect>
+    <defs>
+        <pattern id="smallGrid" width="1" height="1" patternUnits="userSpaceOnUse">
+            <rect width="10" height="10"></rect>
+        </pattern>
+        <pattern id="x" patternUnits="userSpaceOnUse" width="4" height="4" x="0" y="0">
+            <g style="fill: white; stroke: black; stroke-width: 0.5;">
+                <path d="M0,0 l25,25"></path>
+                <path d="M25,0 l-25,25"></path>
+            </g>
+        </pattern>
+    </defs>
+    <g id="panelHorario" transform="translate(50,30)" width="555.609" height="496.96900000000005">
+        <rect id="fondoPanelHorario" width="555.609" height="496.96900000000005" fill="#fff"></rect>
+        <g class="ejeX" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+            <g class="tick" opacity="1" transform="translate(55.560900000000004,0)">
+                <line stroke="currentColor" y2="0"></line>
+                <text fill="currentColor" y="-3" dy="0em" font-size="20">Lunes</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(166.6827,0)">
+                <line stroke="currentColor" y2="0"></line>
+                <text fill="currentColor" y="-3" dy="0em" font-size="20">Martes</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(277.8045,0)">
+                <line stroke="currentColor" y2="0"></line>
+                <text fill="currentColor" y="-3" dy="0em" font-size="20">Miércoles</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(388.9263,0)">
+                <line stroke="currentColor" y2="0"></line>
+                <text fill="currentColor" y="-3" dy="0em" font-size="20">Jueves</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(500.04810000000003,0)">
+                <line stroke="currentColor" y2="0"></line>
+                <text fill="currentColor" y="-3" dy="0em" font-size="20">Viernes</text>
+            </g>
+        </g>
+        <g class="ejeY" fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+            <g class="tick" opacity="1" transform="translate(0,1.5932170795475533)">
+                <line stroke="currentColor" x2="-6"></line>
+                <text fill="currentColor" x="-9" dy="0.32em">08 AM</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,84.19194284132041)">
+                <line stroke="currentColor" x2="-6"></line>
+                <text fill="currentColor" x="-9" dy="0.32em">09 AM</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,166.79066860309328)">
+                <line stroke="currentColor" x2="-6"></line>
+                <text fill="currentColor" x="-9" dy="0.32em">10 AM</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,249.38939436486612)">
+                <line stroke="currentColor" x2="-6"></line>
+                <text fill="currentColor" x="-9" dy="0.32em">11 AM</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,331.98812012663905)">
+                <line stroke="currentColor" x2="-6"></line>
+                <text fill="currentColor" x="-9" dy="0.32em">12 PM</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,414.58684588841186)">
+                <line stroke="currentColor" x2="-6"></line>
+                <text fill="currentColor" x="-9" dy="0.32em">01 PM</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,497.1855716501847)">
+                <line stroke="currentColor" x2="-6"></line>
+                <text fill="currentColor" x="-9" dy="0.32em">02 PM</text>
+            </g>
+        </g>
+        <g id="L" class="panelDiaSemana" transform="translate(0,0)">
+            <line x1="111.12180000000001" y1="0" x2="111.12180000000001" y2="496.96900000000005" stroke-width="0.1" stroke="black" stroke-dasharray="1"></line>
+            <g transform="translate(0,0)" class="panelSesion" id="sesP1L1">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1L1" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">08:00 - 08:55</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1L1" height="64.92581944444446" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,75.92581944444446)" class="panelSesion" id="sesP1L2">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1L2" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">08:55 - 09:50</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1L2" height="64.92581944444446" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,151.8516388888889)" class="panelSesion" id="sesP1L3">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1L3" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">09:50 - 10:45</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1L3" height="64.92581944444444" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,269.1915416666667)" class="panelSesion" id="sesP1L4">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1L4" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">11:15 - 12:10</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1L4" height="64.92581944444441" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,345.1173611111111)" class="panelSesion" id="sesP1L5">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1L5" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">12:10 - 13:05</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1L5" height="64.92581944444447" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,421.0431805555556)" class="panelSesion" id="sesP1L6">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1L6" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">13:05 - 14:00</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1L6" height="64.92581944444447" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,151.8516388888889)" class="panelSesionActividades" id="panelSesionActividadesP1L2" data-actividades="75fc3ad4-da1a-4860-ae35-d8a675fa06a6,77fc3ad1-da1a-4860-ae35-d8a675fa06a6" data-actividadVisible="75fc3ad4-da1a-4860-ae35-d8a675fa06a6">
+                <g class="panelCabeceraSesionActividades" id="panelCabeceraSesionActividadesP1L2">
+                    <rect class="rectPanelCabeceraSesionActividades" height="22" width="111.12180000000001" rx="0" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">09:50 - 12:55</text>
+                    <polygon points="15,1.6111111111111112 7,5.5 15,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonIzquierdoCabeceraSesionActividades" id="botonIzquierdoCabeceraSesionActividadesP1L2"></polygon>
+                    <polygon></polygon>
+                    <polygon points="96.12180000000001,1.6111111111111112 104.12180000000001,5.5 96.12180000000001,9.38888888888889" fill="white" class="botonCabeceraSesionActividades botonDerechoCabeceraSesionActividades" id="botonDerechoCabeceraSesionActividadesP1L2"></polygon>
+                </g>
+                <g class="panelCuerpoSesionActividades" id="panelCuerpoSesionActividadesP1L2" transform="translate(0,11)" clip-path="url(#rectanguloRecortadorP1L2)">
+                    <clipPath id="rectanguloRecortadorP1L2">
+                        <rect id="rectRecortadorP1L2" height="244.3868472222222" width="111.12180000000001"></rect>
+                    </clipPath>
+                    <g class="panelActividad visible" id="panelActividad_75fc3ad4-da1a-4860-ae35-d8a675fa06a6" transform="translate(0,0)" x="0" y="0" height="244.3868472222222" altoSeccionPie="15" width="111.12180000000001">
+                        <g class="panelActividadSeccion panelActividadSeccion_1" id="panelActividadSeccion_1_75fc3ad4-da1a-4860-ae35-d8a675fa06a6" transform="translate(4.444872,0)" x="4.444872" y="0" height="229.3868472222222" width="35.558976">
+                            <rect height="229.3868472222222" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="229.3868472222222" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_1" id="panelContenidoSeccion_1_75fc3ad4-da1a-4860-ae35-d8a675fa06a6">
+                                <text x="18.27948760986328" y="104.69342041015625" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">3ESOB</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_1_75fc3ad4-da1a-4860-ae35-d8a675fa06a6" class="rectActivarGestionActividad" height="229.3868472222222" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_2" id="panelActividadSeccion_2_75fc3ad4-da1a-4860-ae35-d8a675fa06a6" transform="translate(40.003848000000005,0)" x="40.003848000000005" y="0" height="229.3868472222222" width="35.558976">
+                            <rect height="229.3868472222222" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="229.3868472222222" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_2" id="panelContenidoSeccion_2_75fc3ad4-da1a-4860-ae35-d8a675fa06a6">
+                                <text x="18.27948760986328" y="104.69342041015625" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">FYQ</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_2_75fc3ad4-da1a-4860-ae35-d8a675fa06a6" class="rectActivarGestionActividad" height="229.3868472222222" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_3" id="panelActividadSeccion_3_75fc3ad4-da1a-4860-ae35-d8a675fa06a6" transform="translate(75.562824,0)" x="75.562824" y="0" height="229.3868472222222" width="35.558976">
+                            <rect height="229.3868472222222" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="229.3868472222222" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_3" id="panelContenidoSeccion_3_75fc3ad4-da1a-4860-ae35-d8a675fa06a6">
+                                <text x="18.27948760986328" y="104.69342041015625" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">3.1</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_3_75fc3ad4-da1a-4860-ae35-d8a675fa06a6" class="rectActivarGestionActividad" height="229.3868472222222" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadZonaSeleccion" id="panelActividadZonaSeleccion_75fc3ad4-da1a-4860-ae35-d8a675fa06a6">
+                            <rect class="rectActividad" width="4.444872" height="244.3868472222222" fill="#eee"></rect>
+                            <foreignObject width="4.444872px" height="122.1934236111111px" y="3px">
+                                <div style="width: 4.44487px; height: 119.193px; text-align: center;">
+                                    <i class="fas fa fa-expand-arrows-alt" style="font-size:8px; " aria-hidden="true">
+                                        <p style="font-size:4px"></p>
+                                        <i class="fas fa fa-copy" style="font-size:8px;" i="" aria-hidden="true"></i>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                            <foreignObject width="4.444872px" height="122.1934236111111px" y="122.1934236111111px">
+                                <div style="width: 4.44487px; height: 122.193px; display: flex; align-items: end; justify-content: center; text-align: center;">
+                                    <i class="fas fa fa-trash" style="font-size:8px;" aria-hidden="true">
+                                        <p style="font-size:2px">
+                                            <i class="fas fa fa-plus" style="font-size:8px; " i="" aria-hidden="true"></i>
+                                        </p>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                        </g>
+                        <g class="panelActividadSeccionPie" id="panelActividadSeccionPie_75fc3ad4-da1a-4860-ae35-d8a675fa06a6" transform="translate(4.444872,229.3868472222222)" height="15" width="106.676928">
+                            <rect height="15" width="106.676928" fill="#e4fbc3"></rect>
+                            <text x="53.338464" y="7.5" font-size="0.8em" dominant-baseline="central" text-anchor="middle">Se imparte en el Gimnasio</text>
+                            <line x1="0" y1="0" x2="106.676928" y2="0" stroke-width="0.5" stroke="grey"></line>
+                        </g>
+                    </g>
+                    <g class="panelActividad" id="panelActividad_77fc3ad1-da1a-4860-ae35-d8a675fa06a6" transform="translate(111.12180000000001,0)" x="111.12180000000001" y="0" height="244.3868472222222" altoSeccionPie="15" width="111.12180000000001">
+                        <g class="panelActividadSeccion panelActividadSeccion_1" id="panelActividadSeccion_1_77fc3ad1-da1a-4860-ae35-d8a675fa06a6" transform="translate(4.444872,0)" x="4.444872" y="0" height="229.3868472222222" width="35.558976">
+                            <rect height="229.3868472222222" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="229.3868472222222" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_1" id="panelContenidoSeccion_1_77fc3ad1-da1a-4860-ae35-d8a675fa06a6">
+                                <text x="18.27948760986328" y="104.69342041015625" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">3ESOB</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_1_77fc3ad1-da1a-4860-ae35-d8a675fa06a6" class="rectActivarGestionActividad" height="229.3868472222222" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_2" id="panelActividadSeccion_2_77fc3ad1-da1a-4860-ae35-d8a675fa06a6" transform="translate(40.003848000000005,0)" x="40.003848000000005" y="0" height="229.3868472222222" width="35.558976">
+                            <rect height="229.3868472222222" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="229.3868472222222" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_2" id="panelContenidoSeccion_2_77fc3ad1-da1a-4860-ae35-d8a675fa06a6">
+                                <text x="18.27948760986328" y="104.69342041015625" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">FYQ</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_2_77fc3ad1-da1a-4860-ae35-d8a675fa06a6" class="rectActivarGestionActividad" height="229.3868472222222" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_3" id="panelActividadSeccion_3_77fc3ad1-da1a-4860-ae35-d8a675fa06a6" transform="translate(75.562824,0)" x="75.562824" y="0" height="229.3868472222222" width="35.558976">
+                            <rect height="229.3868472222222" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="229.3868472222222" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_3" id="panelContenidoSeccion_3_77fc3ad1-da1a-4860-ae35-d8a675fa06a6">
+                                <text x="18.27948760986328" y="104.69342041015625" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">3.1</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_3_77fc3ad1-da1a-4860-ae35-d8a675fa06a6" class="rectActivarGestionActividad" height="229.3868472222222" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadZonaSeleccion" id="panelActividadZonaSeleccion_77fc3ad1-da1a-4860-ae35-d8a675fa06a6">
+                            <rect class="rectActividad" width="4.444872" height="244.3868472222222" fill="#eee"></rect>
+                            <foreignObject width="4.444872px" height="122.1934236111111px" y="3px">
+                                <div style="width: 4.44487px; height: 119.193px; text-align: center;">
+                                    <i class="fas fa fa-expand-arrows-alt" style="font-size:8px; " aria-hidden="true">
+                                        <p style="font-size:4px"></p>
+                                        <i class="fas fa fa-copy" style="font-size:8px;" i="" aria-hidden="true"></i>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                            <foreignObject width="4.444872px" height="122.1934236111111px" y="122.1934236111111px">
+                                <div style="width: 4.44487px; height: 122.193px; display: flex; align-items: end; justify-content: center; text-align: center;">
+                                    <i class="fas fa fa-trash" style="font-size:8px;" aria-hidden="true">
+                                        <p style="font-size:2px">
+                                            <i class="fas fa fa-plus" style="font-size:8px; " i="" aria-hidden="true"></i>
+                                        </p>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                        </g>
+                        <g class="panelActividadSeccionPie" id="panelActividadSeccionPie_77fc3ad1-da1a-4860-ae35-d8a675fa06a6" transform="translate(4.444872,229.3868472222222)" height="15" width="106.676928">
+                            <rect height="15" width="106.676928" fill="#e4fbc3"></rect>
+                            <text x="53.338464" y="7.5" font-size="0.8em" dominant-baseline="central" text-anchor="middle">Se imparte en el Gimnasio</text>
+                            <line x1="0" y1="0" x2="106.676928" y2="0" stroke-width="0.5" stroke="grey"></line>
+                        </g>
+                    </g>
+                </g>
+                <g class="panelPieSesionActividades" id="panelPieSesionActividadesP1L2">
+                    <rect class="rectPanelPieSesionActividades" height="0" width="111.12180000000001" y="255.3868472222222" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">09:50 - 12:55</text>
+                </g>
+            </g>
+            <g transform="translate(0,165.65633333333335)" class="panelSesionActividades" id="panelSesionActividadesP1L1" data-actividades="75fc3ad4-da1a-4860-ae35-d8a675fa06a5" data-actividadVisible="75fc3ad4-da1a-4860-ae35-d8a675fa06a5">
+                <g class="panelCabeceraSesionActividades" id="panelCabeceraSesionActividadesP1L1">
+                    <rect class="rectPanelCabeceraSesionActividades" height="22" width="111.12180000000001" rx="0" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">10:00 - 10:55</text>
+                    <polygon points="15,1.6111111111111112 7,5.5 15,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonIzquierdoCabeceraSesionActividades" id="botonIzquierdoCabeceraSesionActividadesP1L1"></polygon>
+                    <polygon></polygon>
+                    <polygon points="96.12180000000001,1.6111111111111112 104.12180000000001,5.5 96.12180000000001,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonDerechoCabeceraSesionActividades" id="botonDerechoCabeceraSesionActividadesP1L1"></polygon>
+                </g>
+                <g class="panelCuerpoSesionActividades" id="panelCuerpoSesionActividadesP1L1" transform="translate(0,11)" clip-path="url(#rectanguloRecortadorP1L1)">
+                    <clipPath id="rectanguloRecortadorP1L1">
+                        <rect id="rectRecortadorP1L1" height="64.92581944444444" width="111.12180000000001"></rect>
+                    </clipPath>
+                    <g class="panelActividad visible" id="panelActividad_75fc3ad4-da1a-4860-ae35-d8a675fa06a5" transform="translate(0,0)" x="0" y="0" height="64.92581944444444" altoSeccionPie="15" width="111.12180000000001">
+                        <g class="panelActividadSeccion panelActividadSeccion_1" id="panelActividadSeccion_1_75fc3ad4-da1a-4860-ae35-d8a675fa06a5" transform="translate(4.444872,0)" x="4.444872" y="0" height="49.92581944444444" width="35.558976">
+                            <rect height="49.92581944444444" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.92581944444444" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_1" id="panelContenidoSeccion_1_75fc3ad4-da1a-4860-ae35-d8a675fa06a5">
+                                <text x="18.27948760986328" y="14.962909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">3ESOC</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_1_75fc3ad4-da1a-4860-ae35-d8a675fa06a5" class="rectActivarGestionActividad" height="49.92581944444444" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_2" id="panelActividadSeccion_2_75fc3ad4-da1a-4860-ae35-d8a675fa06a5" transform="translate(40.003848000000005,0)" x="40.003848000000005" y="0" height="49.92581944444444" width="35.558976">
+                            <rect height="49.92581944444444" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.92581944444444" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_2" id="panelContenidoSeccion_2_75fc3ad4-da1a-4860-ae35-d8a675fa06a5">
+                                <text x="18.27948760986328" y="14.962909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">FYQ</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_2_75fc3ad4-da1a-4860-ae35-d8a675fa06a5" class="rectActivarGestionActividad" height="49.92581944444444" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_3" id="panelActividadSeccion_3_75fc3ad4-da1a-4860-ae35-d8a675fa06a5" transform="translate(75.562824,0)" x="75.562824" y="0" height="49.92581944444444" width="35.558976">
+                            <rect height="49.92581944444444" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.92581944444444" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_3" id="panelContenidoSeccion_3_75fc3ad4-da1a-4860-ae35-d8a675fa06a5">
+                                <text x="18.27948760986328" y="14.962909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">3.1</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_3_75fc3ad4-da1a-4860-ae35-d8a675fa06a5" class="rectActivarGestionActividad" height="49.92581944444444" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadZonaSeleccion" id="panelActividadZonaSeleccion_75fc3ad4-da1a-4860-ae35-d8a675fa06a5">
+                            <rect class="rectActividad" width="4.444872" height="64.92581944444444" fill="#eee"></rect>
+                            <foreignObject width="4.444872px" height="32.46290972222222px" y="3px">
+                                <div style="width: 4.44487px; height: 29.4629px; text-align: center;">
+                                    <i class="fas fa fa-expand-arrows-alt" style="font-size:8px; " aria-hidden="true">
+                                        <p style="font-size:4px"></p>
+                                        <i class="fas fa fa-copy" style="font-size:8px;" i="" aria-hidden="true"></i>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                            <foreignObject width="4.444872px" height="32.46290972222222px" y="32.46290972222222px">
+                                <div style="width: 4.44487px; height: 32.4629px; display: flex; align-items: end; justify-content: center; text-align: center;">
+                                    <i class="fas fa fa-trash" style="font-size:8px;" aria-hidden="true">
+                                        <p style="font-size:2px">
+                                            <i class="fas fa fa-plus" style="font-size:8px; " i="" aria-hidden="true"></i>
+                                        </p>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                        </g>
+                        <g class="panelActividadSeccionPie" id="panelActividadSeccionPie_75fc3ad4-da1a-4860-ae35-d8a675fa06a5" transform="translate(4.444872,49.92581944444444)" height="15" width="106.676928">
+                            <rect height="15" width="106.676928" fill="#e4fbc3"></rect>
+                            <text x="53.338464" y="7.5" font-size="0.8em" dominant-baseline="central" text-anchor="middle">Se imparte en el Gimnasio</text>
+                            <line x1="0" y1="0" x2="106.676928" y2="0" stroke-width="0.5" stroke="grey"></line>
+                        </g>
+                    </g>
+                </g>
+                <g class="panelPieSesionActividades" id="panelPieSesionActividadesP1L1">
+                    <rect class="rectPanelPieSesionActividades" height="0" width="111.12180000000001" y="75.92581944444444" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">10:00 - 10:55</text>
+                </g>
+            </g>
+        </g>
+        <g id="M" class="panelDiaSemana" transform="translate(111.12180000000001,0)">
+            <line x1="111.12180000000001" y1="0" x2="111.12180000000001" y2="496.96900000000005" stroke-width="0.1" stroke="black" stroke-dasharray="1"></line>
+            <g transform="translate(0,0)" class="panelSesion" id="sesP1M1">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1M1" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">08:00 - 08:55</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1M1" height="64.92581944444446" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,75.92581944444446)" class="panelSesion" id="sesP1M2">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1M2" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">08:55 - 09:50</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1M2" height="64.92581944444446" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,151.8516388888889)" class="panelSesion" id="sesP1M3">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1M3" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">09:50 - 10:45</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1M3" height="64.92581944444444" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,269.1915416666667)" class="panelSesion" id="sesP1M4">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1M4" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">11:15 - 12:10</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1M4" height="64.92581944444441" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,345.1173611111111)" class="panelSesion" id="sesP1M5">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1M5" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">12:10 - 13:05</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1M5" height="64.92581944444447" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,421.0431805555556)" class="panelSesion" id="sesP1M6">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1M6" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">13:05 - 14:00</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1M6" height="64.92581944444447" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,0)" class="panelSesionActividades" id="panelSesionActividadesP1M1" data-actividades="646c632e-93d9-496b-b29c-0c39e2d8c6a1" data-actividadVisible="646c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                <g class="panelCabeceraSesionActividades" id="panelCabeceraSesionActividadesP1M1">
+                    <rect class="rectPanelCabeceraSesionActividades" height="22" width="111.12180000000001" rx="0" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:00 - 08:55</text>
+                    <polygon points="15,1.6111111111111112 7,5.5 15,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonIzquierdoCabeceraSesionActividades" id="botonIzquierdoCabeceraSesionActividadesP1M1"></polygon>
+                    <polygon></polygon>
+                    <polygon points="96.12180000000001,1.6111111111111112 104.12180000000001,5.5 96.12180000000001,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonDerechoCabeceraSesionActividades" id="botonDerechoCabeceraSesionActividadesP1M1"></polygon>
+                </g>
+                <g class="panelCuerpoSesionActividades" id="panelCuerpoSesionActividadesP1M1" transform="translate(0,11)" clip-path="url(#rectanguloRecortadorP1M1)">
+                    <clipPath id="rectanguloRecortadorP1M1">
+                        <rect id="rectRecortadorP1M1" height="64.92581944444446" width="111.12180000000001"></rect>
+                    </clipPath>
+                    <g class="panelActividad visible" id="panelActividad_646c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(0,0)" x="0" y="0" height="64.92581944444446" altoSeccionPie="0" width="111.12180000000001">
+                        <g class="panelActividadSeccion panelActividadSeccion_1" id="panelActividadSeccion_1_646c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(4.444872,0)" x="4.444872" y="0" height="64.92581944444446" width="35.558976">
+                            <rect height="64.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_1" id="panelContenidoSeccion_1_646c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="22.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACA</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_1_646c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_2" id="panelActividadSeccion_2_646c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(40.003848000000005,0)" x="40.003848000000005" y="0" height="64.92581944444446" width="35.558976">
+                            <rect height="64.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_2" id="panelContenidoSeccion_2_646c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="22.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">MII</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_2_646c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_3" id="panelActividadSeccion_3_646c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(75.562824,0)" x="75.562824" y="0" height="64.92581944444446" width="35.558976">
+                            <rect height="64.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_3" id="panelContenidoSeccion_3_646c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="22.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">3.1</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_3_646c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadZonaSeleccion" id="panelActividadZonaSeleccion_646c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                            <rect class="rectActividad" width="4.444872" height="64.92581944444446" fill="#eee"></rect>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="3px">
+                                <div style="width: 4.44487px; height: 29.4629px; text-align: center;">
+                                    <i class="fas fa fa-expand-arrows-alt" style="font-size:8px; " aria-hidden="true">
+                                        <p style="font-size:4px"></p>
+                                        <i class="fas fa fa-copy" style="font-size:8px;" i="" aria-hidden="true"></i>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="32.46290972222223px">
+                                <div style="width: 4.44487px; height: 32.4629px; display: flex; align-items: end; justify-content: center; text-align: center;">
+                                    <i class="fas fa fa-trash" style="font-size:8px;" aria-hidden="true">
+                                        <p style="font-size:2px">
+                                            <i class="fas fa fa-plus" style="font-size:8px; " i="" aria-hidden="true"></i>
+                                        </p>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="panelPieSesionActividades" id="panelPieSesionActividadesP1M1">
+                    <rect class="rectPanelPieSesionActividades" height="0" width="111.12180000000001" y="75.92581944444446" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:00 - 08:55</text>
+                </g>
+            </g>
+            <g transform="translate(0,75.92581944444446)" class="panelSesionActividades" id="panelSesionActividadesP1M2" data-actividades="346c632e-93d9-496b-b29c-0c39e2d8c6a3" data-actividadVisible="346c632e-93d9-496b-b29c-0c39e2d8c6a3">
+                <g class="panelCabeceraSesionActividades" id="panelCabeceraSesionActividadesP1M2">
+                    <rect class="rectPanelCabeceraSesionActividades" height="22" width="111.12180000000001" rx="0" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:55 - 09:50</text>
+                    <polygon points="15,1.6111111111111112 7,5.5 15,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonIzquierdoCabeceraSesionActividades" id="botonIzquierdoCabeceraSesionActividadesP1M2"></polygon>
+                    <polygon></polygon>
+                    <polygon points="96.12180000000001,1.6111111111111112 104.12180000000001,5.5 96.12180000000001,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonDerechoCabeceraSesionActividades" id="botonDerechoCabeceraSesionActividadesP1M2"></polygon>
+                </g>
+                <g class="panelCuerpoSesionActividades" id="panelCuerpoSesionActividadesP1M2" transform="translate(0,11)" clip-path="url(#rectanguloRecortadorP1M2)">
+                    <clipPath id="rectanguloRecortadorP1M2">
+                        <rect id="rectRecortadorP1M2" height="64.92581944444446" width="111.12180000000001"></rect>
+                    </clipPath>
+                    <g class="panelActividad visible" id="panelActividad_346c632e-93d9-496b-b29c-0c39e2d8c6a3" transform="translate(0,0)" x="0" y="0" height="64.92581944444446" altoSeccionPie="15" width="111.12180000000001">
+                        <g class="panelActividadSeccion panelActividadSeccion_1" id="panelActividadSeccion_1_346c632e-93d9-496b-b29c-0c39e2d8c6a3" transform="translate(4.444872,0)" x="4.444872" y="0" height="49.92581944444446" width="35.558976">
+                            <rect height="49.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_1" id="panelContenidoSeccion_1_346c632e-93d9-496b-b29c-0c39e2d8c6a3">
+                                <text x="18.27948760986328" y="14.962909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">3ESOA</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_1_346c632e-93d9-496b-b29c-0c39e2d8c6a3" class="rectActivarGestionActividad" height="49.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_2" id="panelActividadSeccion_2_346c632e-93d9-496b-b29c-0c39e2d8c6a3" transform="translate(40.003848000000005,0)" x="40.003848000000005" y="0" height="49.92581944444446" width="35.558976">
+                            <rect height="49.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_2" id="panelContenidoSeccion_2_346c632e-93d9-496b-b29c-0c39e2d8c6a3">
+                                <text x="18.27948760986328" y="14.962909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">TEC</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_2_346c632e-93d9-496b-b29c-0c39e2d8c6a3" class="rectActivarGestionActividad" height="49.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_3" id="panelActividadSeccion_3_346c632e-93d9-496b-b29c-0c39e2d8c6a3" transform="translate(75.562824,0)" x="75.562824" y="0" height="49.92581944444446" width="35.558976">
+                            <rect height="49.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_3" id="panelContenidoSeccion_3_346c632e-93d9-496b-b29c-0c39e2d8c6a3">
+                                <text x="18.27948760986328" y="14.962909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">GYM</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_3_346c632e-93d9-496b-b29c-0c39e2d8c6a3" class="rectActivarGestionActividad" height="49.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadZonaSeleccion" id="panelActividadZonaSeleccion_346c632e-93d9-496b-b29c-0c39e2d8c6a3">
+                            <rect class="rectActividad" width="4.444872" height="64.92581944444446" fill="#eee"></rect>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="3px">
+                                <div style="width: 4.44487px; height: 29.4629px; text-align: center;">
+                                    <i class="fas fa fa-expand-arrows-alt" style="font-size:8px; " aria-hidden="true">
+                                        <p style="font-size:4px"></p>
+                                        <i class="fas fa fa-copy" style="font-size:8px;" i="" aria-hidden="true"></i>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="32.46290972222223px">
+                                <div style="width: 4.44487px; height: 32.4629px; display: flex; align-items: end; justify-content: center; text-align: center;">
+                                    <i class="fas fa fa-trash" style="font-size:8px;" aria-hidden="true">
+                                        <p style="font-size:2px">
+                                            <i class="fas fa fa-plus" style="font-size:8px; " i="" aria-hidden="true"></i>
+                                        </p>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                        </g>
+                        <g class="panelActividadSeccionPie" id="panelActividadSeccionPie_346c632e-93d9-496b-b29c-0c39e2d8c6a3" transform="translate(4.444872,49.92581944444446)" height="15" width="106.676928">
+                            <rect height="15" width="106.676928" fill="#e4fbc3"></rect>
+                            <text x="53.338464" y="7.5" font-size="0.8em" dominant-baseline="central" text-anchor="middle">Se imparte en el Gimnasio</text>
+                            <line x1="0" y1="0" x2="106.676928" y2="0" stroke-width="0.5" stroke="grey"></line>
+                        </g>
+                    </g>
+                </g>
+                <g class="panelPieSesionActividades" id="panelPieSesionActividadesP1M2">
+                    <rect class="rectPanelPieSesionActividades" height="0" width="111.12180000000001" y="75.92581944444446" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:55 - 09:50</text>
+                </g>
+            </g>
+            <g transform="translate(0,269.1915416666667)" class="panelSesionActividades" id="panelSesionActividadesP1L4" data-actividades="76fc3ad4-da1a-4860-ae35-d8a675fa06a1" data-actividadVisible="76fc3ad4-da1a-4860-ae35-d8a675fa06a1">
+                <g class="panelCabeceraSesionActividades" id="panelCabeceraSesionActividadesP1L4">
+                    <rect class="rectPanelCabeceraSesionActividades" height="22" width="111.12180000000001" rx="0" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">11:15 - 12:10</text>
+                    <polygon points="15,1.6111111111111112 7,5.5 15,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonIzquierdoCabeceraSesionActividades" id="botonIzquierdoCabeceraSesionActividadesP1L4"></polygon>
+                    <polygon></polygon>
+                    <polygon points="96.12180000000001,1.6111111111111112 104.12180000000001,5.5 96.12180000000001,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonDerechoCabeceraSesionActividades" id="botonDerechoCabeceraSesionActividadesP1L4"></polygon>
+                </g>
+                <g class="panelCuerpoSesionActividades" id="panelCuerpoSesionActividadesP1L4" transform="translate(0,11)" clip-path="url(#rectanguloRecortadorP1L4)">
+                    <clipPath id="rectanguloRecortadorP1L4">
+                        <rect id="rectRecortadorP1L4" height="64.92581944444441" width="111.12180000000001"></rect>
+                    </clipPath>
+                    <g class="panelActividad visible" id="panelActividad_76fc3ad4-da1a-4860-ae35-d8a675fa06a1" transform="translate(0,0)" x="0" y="0" height="64.92581944444441" altoSeccionPie="15" width="111.12180000000001">
+                        <g class="panelActividadSeccion panelActividadSeccion_1" id="panelActividadSeccion_1_76fc3ad4-da1a-4860-ae35-d8a675fa06a1" transform="translate(4.444872,0)" x="4.444872" y="0" height="49.925819444444414" width="35.558976">
+                            <rect height="49.925819444444414" width="36.558976" fill="#ffd8c1"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.925819444444414" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_1" id="panelContenidoSeccion_1_76fc3ad4-da1a-4860-ae35-d8a675fa06a1"></g>
+                            <rect id="rectActivarGestionActividad_1_76fc3ad4-da1a-4860-ae35-d8a675fa06a1" class="rectActivarGestionActividad" height="49.925819444444414" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_2" id="panelActividadSeccion_2_76fc3ad4-da1a-4860-ae35-d8a675fa06a1" transform="translate(40.003848000000005,0)" x="40.003848000000005" y="0" height="49.925819444444414" width="35.558976">
+                            <rect height="49.925819444444414" width="36.558976" fill="#ffd8c1"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.925819444444414" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_2" id="panelContenidoSeccion_2_76fc3ad4-da1a-4860-ae35-d8a675fa06a1"></g>
+                            <rect id="rectActivarGestionActividad_2_76fc3ad4-da1a-4860-ae35-d8a675fa06a1" class="rectActivarGestionActividad" height="49.925819444444414" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_3" id="panelActividadSeccion_3_76fc3ad4-da1a-4860-ae35-d8a675fa06a1" transform="translate(75.562824,0)" x="75.562824" y="0" height="49.925819444444414" width="35.558976">
+                            <rect height="49.925819444444414" width="36.558976" fill="#ffd8c1"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.925819444444414" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_3" id="panelContenidoSeccion_3_76fc3ad4-da1a-4860-ae35-d8a675fa06a1">
+                                <text x="18.27948760986328" y="14.962909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle"></text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_3_76fc3ad4-da1a-4860-ae35-d8a675fa06a1" class="rectActivarGestionActividad" height="49.925819444444414" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadZonaSeleccion" id="panelActividadZonaSeleccion_76fc3ad4-da1a-4860-ae35-d8a675fa06a1">
+                            <rect class="rectActividad" width="4.444872" height="64.92581944444441" fill="#eee"></rect>
+                            <foreignObject width="4.444872px" height="32.46290972222221px" y="3px">
+                                <div style="width: 4.44487px; height: 29.4629px; text-align: center;">
+                                    <i class="fas fa fa-expand-arrows-alt" style="font-size:8px; " aria-hidden="true">
+                                        <p style="font-size:4px"></p>
+                                        <i class="fas fa fa-copy" style="font-size:8px;" i="" aria-hidden="true"></i>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                            <foreignObject width="4.444872px" height="32.46290972222221px" y="32.46290972222221px">
+                                <div style="width: 4.44487px; height: 32.4629px; display: flex; align-items: end; justify-content: center; text-align: center;">
+                                    <i class="fas fa fa-trash" style="font-size:8px;" aria-hidden="true">
+                                        <p style="font-size:2px">
+                                            <i class="fas fa fa-plus" style="font-size:8px; " i="" aria-hidden="true"></i>
+                                        </p>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                        </g>
+                        <g class="panelActividadSeccionPie" id="panelActividadSeccionPie_76fc3ad4-da1a-4860-ae35-d8a675fa06a1" transform="translate(4.444872,49.925819444444414)" height="15" width="106.676928">
+                            <rect height="15" width="106.676928" fill="#ffd8c1"></rect>
+                            <text x="53.338464" y="7.5" font-size="0.8em" dominant-baseline="central" text-anchor="middle">Se imparte en el Gimnasio</text>
+                            <line x1="0" y1="0" x2="106.676928" y2="0" stroke-width="0.5" stroke="grey"></line>
+                        </g>
+                    </g>
+                </g>
+                <g class="panelPieSesionActividades" id="panelPieSesionActividadesP1L4">
+                    <rect class="rectPanelPieSesionActividades" height="0" width="111.12180000000001" y="75.92581944444441" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">11:15 - 12:10</text>
+                </g>
+            </g>
+        </g>
+        <g id="X" class="panelDiaSemana" transform="translate(222.24360000000001,0)">
+            <line x1="111.12180000000001" y1="0" x2="111.12180000000001" y2="496.96900000000005" stroke-width="0.1" stroke="black" stroke-dasharray="1"></line>
+            <g transform="translate(0,0)" class="panelSesion" id="sesP1X1">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1X1" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">08:00 - 08:55</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1X1" height="64.92581944444446" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,75.92581944444446)" class="panelSesion" id="sesP1X2">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1X2" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">08:55 - 09:50</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1X2" height="64.92581944444446" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,151.8516388888889)" class="panelSesion" id="sesP1X3">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1X3" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">09:50 - 10:45</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1X3" height="64.92581944444444" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,269.1915416666667)" class="panelSesion" id="sesP1X4">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1X4" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">11:15 - 12:10</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1X4" height="64.92581944444441" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,345.1173611111111)" class="panelSesion" id="sesP1X5">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1X5" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">12:10 - 13:05</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1X5" height="64.92581944444447" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,421.0431805555556)" class="panelSesion" id="sesP1X6">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1X6" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">13:05 - 14:00</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1X6" height="64.92581944444447" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,0)" class="panelSesionActividades" id="panelSesionActividadesP1X1" data-actividades="656c632e-93d9-496b-b29c-0c39e2d8c6a1" data-actividadVisible="656c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                <g class="panelCabeceraSesionActividades" id="panelCabeceraSesionActividadesP1X1">
+                    <rect class="rectPanelCabeceraSesionActividades" height="22" width="111.12180000000001" rx="0" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:00 - 08:55</text>
+                    <polygon points="15,1.6111111111111112 7,5.5 15,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonIzquierdoCabeceraSesionActividades" id="botonIzquierdoCabeceraSesionActividadesP1X1"></polygon>
+                    <polygon></polygon>
+                    <polygon points="96.12180000000001,1.6111111111111112 104.12180000000001,5.5 96.12180000000001,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonDerechoCabeceraSesionActividades" id="botonDerechoCabeceraSesionActividadesP1X1"></polygon>
+                </g>
+                <g class="panelCuerpoSesionActividades" id="panelCuerpoSesionActividadesP1X1" transform="translate(0,11)" clip-path="url(#rectanguloRecortadorP1X1)">
+                    <clipPath id="rectanguloRecortadorP1X1">
+                        <rect id="rectRecortadorP1X1" height="64.92581944444446" width="111.12180000000001"></rect>
+                    </clipPath>
+                    <g class="panelActividad visible" id="panelActividad_656c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(0,0)" x="0" y="0" height="64.92581944444446" altoSeccionPie="0" width="111.12180000000001">
+                        <g class="panelActividadSeccion panelActividadSeccion_1" id="panelActividadSeccion_1_656c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(4.444872,0)" x="4.444872" y="0" height="64.92581944444446" width="35.558976">
+                            <rect height="64.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_1" id="panelContenidoSeccion_1_656c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="22.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACA</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_1_656c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_2" id="panelActividadSeccion_2_656c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(40.003848000000005,0)" x="40.003848000000005" y="0" height="64.92581944444446" width="35.558976">
+                            <rect height="64.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_2" id="panelContenidoSeccion_2_656c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="22.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">MII</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_2_656c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_3" id="panelActividadSeccion_3_656c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(75.562824,0)" x="75.562824" y="0" height="64.92581944444446" width="35.558976">
+                            <rect height="64.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_3" id="panelContenidoSeccion_3_656c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="22.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">3.1</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_3_656c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadZonaSeleccion" id="panelActividadZonaSeleccion_656c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                            <rect class="rectActividad" width="4.444872" height="64.92581944444446" fill="#eee"></rect>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="3px">
+                                <div style="width: 4.44487px; height: 29.4629px; text-align: center;">
+                                    <i class="fas fa fa-expand-arrows-alt" style="font-size:8px; " aria-hidden="true">
+                                        <p style="font-size:4px"></p>
+                                        <i class="fas fa fa-copy" style="font-size:8px;" i="" aria-hidden="true"></i>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="32.46290972222223px">
+                                <div style="width: 4.44487px; height: 32.4629px; display: flex; align-items: end; justify-content: center; text-align: center;">
+                                    <i class="fas fa fa-trash" style="font-size:8px;" aria-hidden="true">
+                                        <p style="font-size:2px">
+                                            <i class="fas fa fa-plus" style="font-size:8px; " i="" aria-hidden="true"></i>
+                                        </p>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="panelPieSesionActividades" id="panelPieSesionActividadesP1X1">
+                    <rect class="rectPanelPieSesionActividades" height="0" width="111.12180000000001" y="75.92581944444446" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:00 - 08:55</text>
+                </g>
+            </g>
+            <g transform="translate(0,151.8516388888889)" class="panelSesionActividades" id="panelSesionActividadesP1X3" data-actividades="246c632e-93d9-496b-b29c-0c39e2d8c6a1" data-actividadVisible="246c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                <g class="panelCabeceraSesionActividades" id="panelCabeceraSesionActividadesP1X3">
+                    <rect class="rectPanelCabeceraSesionActividades" height="22" width="111.12180000000001" rx="0" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">09:50 - 10:45</text>
+                    <polygon points="15,1.6111111111111112 7,5.5 15,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonIzquierdoCabeceraSesionActividades" id="botonIzquierdoCabeceraSesionActividadesP1X3"></polygon>
+                    <polygon></polygon>
+                    <polygon points="96.12180000000001,1.6111111111111112 104.12180000000001,5.5 96.12180000000001,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonDerechoCabeceraSesionActividades" id="botonDerechoCabeceraSesionActividadesP1X3"></polygon>
+                </g>
+                <g class="panelCuerpoSesionActividades" id="panelCuerpoSesionActividadesP1X3" transform="translate(0,11)" clip-path="url(#rectanguloRecortadorP1X3)">
+                    <clipPath id="rectanguloRecortadorP1X3">
+                        <rect id="rectRecortadorP1X3" height="64.92581944444444" width="111.12180000000001"></rect>
+                    </clipPath>
+                    <g class="panelActividad visible" id="panelActividad_246c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(0,0)" x="0" y="0" height="64.92581944444444" altoSeccionPie="0" width="111.12180000000001">
+                        <g class="panelActividadSeccion panelActividadSeccion_1" id="panelActividadSeccion_1_246c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(4.444872,0)" x="4.444872" y="0" height="64.92581944444444" width="35.558976">
+                            <rect height="64.92581944444444" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444444" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_1" id="panelContenidoSeccion_1_246c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="22.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACA</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_1_246c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444444" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_2" id="panelActividadSeccion_2_246c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(40.003848000000005,0)" x="40.003848000000005" y="0" height="64.92581944444444" width="35.558976">
+                            <rect height="64.92581944444444" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444444" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_2" id="panelContenidoSeccion_2_246c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="22.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">MII</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_2_246c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444444" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_3" id="panelActividadSeccion_3_246c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(75.562824,0)" x="75.562824" y="0" height="64.92581944444444" width="35.558976">
+                            <rect height="64.92581944444444" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444444" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_3" id="panelContenidoSeccion_3_246c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="22.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">3.1</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_3_246c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444444" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadZonaSeleccion" id="panelActividadZonaSeleccion_246c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                            <rect class="rectActividad" width="4.444872" height="64.92581944444444" fill="#eee"></rect>
+                            <foreignObject width="4.444872px" height="32.46290972222222px" y="3px">
+                                <div style="width: 4.44487px; height: 29.4629px; text-align: center;">
+                                    <i class="fas fa fa-expand-arrows-alt" style="font-size:8px; " aria-hidden="true">
+                                        <p style="font-size:4px"></p>
+                                        <i class="fas fa fa-copy" style="font-size:8px;" i="" aria-hidden="true"></i>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                            <foreignObject width="4.444872px" height="32.46290972222222px" y="32.46290972222222px">
+                                <div style="width: 4.44487px; height: 32.4629px; display: flex; align-items: end; justify-content: center; text-align: center;">
+                                    <i class="fas fa fa-trash" style="font-size:8px;" aria-hidden="true">
+                                        <p style="font-size:2px">
+                                            <i class="fas fa fa-plus" style="font-size:8px; " i="" aria-hidden="true"></i>
+                                        </p>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="panelPieSesionActividades" id="panelPieSesionActividadesP1X3">
+                    <rect class="rectPanelPieSesionActividades" height="0" width="111.12180000000001" y="75.92581944444444" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">09:50 - 10:45</text>
+                </g>
+            </g>
+            <g transform="translate(0,75.92581944444446)" class="panelSesionActividades" id="panelSesionActividadesP1X2" data-actividades="946c632e-93d9-496b-b29c-0c39e2d8c6a1" data-actividadVisible="946c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                <g class="panelCabeceraSesionActividades" id="panelCabeceraSesionActividadesP1X2">
+                    <rect class="rectPanelCabeceraSesionActividades" height="22" width="111.12180000000001" rx="0" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:55 - 09:50</text>
+                    <polygon points="15,1.6111111111111112 7,5.5 15,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonIzquierdoCabeceraSesionActividades" id="botonIzquierdoCabeceraSesionActividadesP1X2"></polygon>
+                    <polygon></polygon>
+                    <polygon points="96.12180000000001,1.6111111111111112 104.12180000000001,5.5 96.12180000000001,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonDerechoCabeceraSesionActividades" id="botonDerechoCabeceraSesionActividadesP1X2"></polygon>
+                </g>
+                <g class="panelCuerpoSesionActividades" id="panelCuerpoSesionActividadesP1X2" transform="translate(0,11)" clip-path="url(#rectanguloRecortadorP1X2)">
+                    <clipPath id="rectanguloRecortadorP1X2">
+                        <rect id="rectRecortadorP1X2" height="64.92581944444446" width="111.12180000000001"></rect>
+                    </clipPath>
+                    <g class="panelActividad visible" id="panelActividad_946c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(0,0)" x="0" y="0" height="64.92581944444446" altoSeccionPie="15" width="111.12180000000001">
+                        <g class="panelActividadSeccion panelActividadSeccion_1" id="panelActividadSeccion_1_946c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(4.444872,0)" x="4.444872" y="0" height="49.92581944444446" width="35.558976">
+                            <rect height="49.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_1" id="panelContenidoSeccion_1_946c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="14.962909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACA</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_1_946c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="49.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_2" id="panelActividadSeccion_2_946c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(40.003848000000005,0)" x="40.003848000000005" y="0" height="49.92581944444446" width="35.558976">
+                            <rect height="49.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_2" id="panelContenidoSeccion_2_946c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="14.962909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">LCL</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_2_946c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="49.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_3" id="panelActividadSeccion_3_946c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(75.562824,0)" x="75.562824" y="0" height="49.92581944444446" width="35.558976">
+                            <rect height="49.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_3" id="panelContenidoSeccion_3_946c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="14.962909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">3.7</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_3_946c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="49.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadZonaSeleccion" id="panelActividadZonaSeleccion_946c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                            <rect class="rectActividad" width="4.444872" height="64.92581944444446" fill="#eee"></rect>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="3px">
+                                <div style="width: 4.44487px; height: 29.4629px; text-align: center;">
+                                    <i class="fas fa fa-expand-arrows-alt" style="font-size:8px; " aria-hidden="true">
+                                        <p style="font-size:4px"></p>
+                                        <i class="fas fa fa-copy" style="font-size:8px;" i="" aria-hidden="true"></i>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="32.46290972222223px">
+                                <div style="width: 4.44487px; height: 32.4629px; display: flex; align-items: end; justify-content: center; text-align: center;">
+                                    <i class="fas fa fa-trash" style="font-size:8px;" aria-hidden="true">
+                                        <p style="font-size:2px">
+                                            <i class="fas fa fa-plus" style="font-size:8px; " i="" aria-hidden="true"></i>
+                                        </p>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                        </g>
+                        <g class="panelActividadSeccionPie" id="panelActividadSeccionPie_946c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(4.444872,49.92581944444446)" height="15" width="106.676928">
+                            <rect height="15" width="106.676928" fill="#e4fbc3"></rect>
+                            <text x="53.338464" y="7.5" font-size="0.8em" dominant-baseline="central" text-anchor="middle">Se imparte en el Gimnasio</text>
+                            <line x1="0" y1="0" x2="106.676928" y2="0" stroke-width="0.5" stroke="grey"></line>
+                        </g>
+                    </g>
+                </g>
+                <g class="panelPieSesionActividades" id="panelPieSesionActividadesP1X2">
+                    <rect class="rectPanelPieSesionActividades" height="0" width="111.12180000000001" y="75.92581944444446" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:55 - 09:50</text>
+                </g>
+            </g>
+        </g>
+        <g id="J" class="panelDiaSemana" transform="translate(333.3654,0)">
+            <line x1="111.12180000000001" y1="0" x2="111.12180000000001" y2="496.96900000000005" stroke-width="0.1" stroke="black" stroke-dasharray="1"></line>
+            <g transform="translate(0,0)" class="panelSesion" id="sesP1J1">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1J1" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">08:00 - 08:55</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1J1" height="64.92581944444446" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,75.92581944444446)" class="panelSesion" id="sesP1J2">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1J2" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">08:55 - 09:50</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1J2" height="64.92581944444446" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,151.8516388888889)" class="panelSesion" id="sesP1J3">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1J3" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">09:50 - 10:45</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1J3" height="64.92581944444444" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,269.1915416666667)" class="panelSesion" id="sesP1J4">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1J4" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">11:15 - 12:10</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1J4" height="64.92581944444441" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,345.1173611111111)" class="panelSesion" id="sesP1J5">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1J5" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">12:10 - 13:05</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1J5" height="64.92581944444447" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,421.0431805555556)" class="panelSesion" id="sesP1J6">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1J6" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">13:05 - 14:00</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1J6" height="64.92581944444447" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,75.92581944444446)" class="panelSesionActividades" id="panelSesionActividadesP1J2" data-actividades="616c632e-93d9-496b-b29c-0c39e2d8c6a1" data-actividadVisible="616c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                <g class="panelCabeceraSesionActividades" id="panelCabeceraSesionActividadesP1J2">
+                    <rect class="rectPanelCabeceraSesionActividades" height="22" width="111.12180000000001" rx="0" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:55 - 09:50</text>
+                    <polygon points="15,1.6111111111111112 7,5.5 15,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonIzquierdoCabeceraSesionActividades" id="botonIzquierdoCabeceraSesionActividadesP1J2"></polygon>
+                    <polygon></polygon>
+                    <polygon points="96.12180000000001,1.6111111111111112 104.12180000000001,5.5 96.12180000000001,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonDerechoCabeceraSesionActividades" id="botonDerechoCabeceraSesionActividadesP1J2"></polygon>
+                </g>
+                <g class="panelCuerpoSesionActividades" id="panelCuerpoSesionActividadesP1J2" transform="translate(0,11)" clip-path="url(#rectanguloRecortadorP1J2)">
+                    <clipPath id="rectanguloRecortadorP1J2">
+                        <rect id="rectRecortadorP1J2" height="64.92581944444446" width="111.12180000000001"></rect>
+                    </clipPath>
+                    <g class="panelActividad visible" id="panelActividad_616c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(0,0)" x="0" y="0" height="64.92581944444446" altoSeccionPie="0" width="111.12180000000001">
+                        <g class="panelActividadSeccion panelActividadSeccion_1" id="panelActividadSeccion_1_616c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(4.444872,0)" x="4.444872" y="0" height="64.92581944444446" width="35.558976">
+                            <rect height="64.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_1" id="panelContenidoSeccion_1_616c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="0" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACA</text>
+                                <text x="18.27948760986328" y="20" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACB</text>
+                                <text x="18.27948760986328" y="40" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">2BACA</text>
+                                <text x="18.27948760986328" y="60" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">2BACB</text>
+                                <text x="18.27948760986328" y="80" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACA</text>
+                                <text x="18.27948760986328" y="100" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACB</text>
+                                <text x="18.27948760986328" y="120" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">2BACA</text>
+                                <text x="18.27948760986328" y="140" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">2BACB</text>
+                                <text x="18.27948760986328" y="160" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACA</text>
+                                <text x="18.27948760986328" y="180" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACB</text>
+                                <text x="18.27948760986328" y="200" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">2BACA</text>
+                                <text x="18.27948760986328" y="220" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">2BACB</text>
+                                <text x="18.27948760986328" y="240" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACA</text>
+                                <text x="18.27948760986328" y="260" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACB</text>
+                                <text x="18.27948760986328" y="280" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">2BACA</text>
+                                <text x="18.27948760986328" y="300" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">2BACB</text>
+                                <text x="18.27948760986328" y="320" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACA</text>
+                                <text x="18.27948760986328" y="340" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACB</text>
+                                <text x="18.27948760986328" y="360" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">2BACA</text>
+                                <text x="18.27948760986328" y="380" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">2BACB</text>
+                                <text x="18.27948760986328" y="400" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACA</text>
+                                <text x="18.27948760986328" y="420" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACB</text>
+                                <text x="18.27948760986328" y="440" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">2BACA</text>
+                                <text x="18.27948760986328" y="460" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">2BACB</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_1_616c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444446" width="34.13661696" opacity="0" witdh="30.558976"></rect>
+                            <g transform="translate(30.558976,0)">
+                                <rect rx="2" ry="2" width="5" height="64.92581944444446" fill="#eee"></rect>
+                                <rect rx="2" ry="2" fill="#777" width="5" height="8.782004230276254"></rect>
+                            </g>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_2" id="panelActividadSeccion_2_616c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(40.003848000000005,0)" x="40.003848000000005" y="0" height="64.92581944444446" width="35.558976">
+                            <rect height="64.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_2" id="panelContenidoSeccion_2_616c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="12.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">MAT</text>
+                                <text x="18.27948760986328" y="32.46290969848633" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">FYQ</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_2_616c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_3" id="panelActividadSeccion_3_616c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(75.562824,0)" x="75.562824" y="0" height="64.92581944444446" width="35.558976">
+                            <rect height="64.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_3" id="panelContenidoSeccion_3_616c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="22.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">CA01</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_3_616c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadZonaSeleccion" id="panelActividadZonaSeleccion_616c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                            <rect class="rectActividad" width="4.444872" height="64.92581944444446" fill="#eee"></rect>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="3px">
+                                <div style="width: 4.44487px; height: 29.4629px; text-align: center;">
+                                    <i class="fas fa fa-expand-arrows-alt" style="font-size:8px; " aria-hidden="true">
+                                        <p style="font-size:4px"></p>
+                                        <i class="fas fa fa-copy" style="font-size:8px;" i="" aria-hidden="true"></i>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="32.46290972222223px">
+                                <div style="width: 4.44487px; height: 32.4629px; display: flex; align-items: end; justify-content: center; text-align: center;">
+                                    <i class="fas fa fa-trash" style="font-size:8px;" aria-hidden="true">
+                                        <p style="font-size:2px">
+                                            <i class="fas fa fa-plus" style="font-size:8px; " i="" aria-hidden="true"></i>
+                                        </p>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="panelPieSesionActividades" id="panelPieSesionActividadesP1J2">
+                    <rect class="rectPanelPieSesionActividades" height="0" width="111.12180000000001" y="75.92581944444446" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:55 - 09:50</text>
+                </g>
+            </g>
+            <g transform="translate(0,0)" class="panelSesionActividades" id="panelSesionActividadesP1J1" data-actividades="676c632e-93d9-496b-b29c-0c39e2d8c6a1" data-actividadVisible="676c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                <g class="panelCabeceraSesionActividades" id="panelCabeceraSesionActividadesP1J1">
+                    <rect class="rectPanelCabeceraSesionActividades" height="22" width="111.12180000000001" rx="0" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:00 - 08:55</text>
+                    <polygon points="15,1.6111111111111112 7,5.5 15,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonIzquierdoCabeceraSesionActividades" id="botonIzquierdoCabeceraSesionActividadesP1J1"></polygon>
+                    <polygon></polygon>
+                    <polygon points="96.12180000000001,1.6111111111111112 104.12180000000001,5.5 96.12180000000001,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonDerechoCabeceraSesionActividades" id="botonDerechoCabeceraSesionActividadesP1J1"></polygon>
+                </g>
+                <g class="panelCuerpoSesionActividades" id="panelCuerpoSesionActividadesP1J1" transform="translate(0,11)" clip-path="url(#rectanguloRecortadorP1J1)">
+                    <clipPath id="rectanguloRecortadorP1J1">
+                        <rect id="rectRecortadorP1J1" height="64.92581944444446" width="111.12180000000001"></rect>
+                    </clipPath>
+                    <g class="panelActividad visible" id="panelActividad_676c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(0,0)" x="0" y="0" height="64.92581944444446" altoSeccionPie="0" width="111.12180000000001">
+                        <g class="panelActividadSeccion panelActividadSeccion_1" id="panelActividadSeccion_1_676c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(4.444872,0)" x="4.444872" y="0" height="64.92581944444446" width="35.558976">
+                            <rect height="64.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_1" id="panelContenidoSeccion_1_676c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="22.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">1BACA</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_1_676c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_2" id="panelActividadSeccion_2_676c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(40.003848000000005,0)" x="40.003848000000005" y="0" height="64.92581944444446" width="35.558976">
+                            <rect height="64.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_2" id="panelContenidoSeccion_2_676c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="22.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">CSO</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_2_676c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_3" id="panelActividadSeccion_3_676c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(75.562824,0)" x="75.562824" y="0" height="64.92581944444446" width="35.558976">
+                            <rect height="64.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="64.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_3" id="panelContenidoSeccion_3_676c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="22.462909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">3.1</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_3_676c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="64.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadZonaSeleccion" id="panelActividadZonaSeleccion_676c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                            <rect class="rectActividad" width="4.444872" height="64.92581944444446" fill="#eee"></rect>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="3px">
+                                <div style="width: 4.44487px; height: 29.4629px; text-align: center;">
+                                    <i class="fas fa fa-expand-arrows-alt" style="font-size:8px; " aria-hidden="true">
+                                        <p style="font-size:4px"></p>
+                                        <i class="fas fa fa-copy" style="font-size:8px;" i="" aria-hidden="true"></i>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="32.46290972222223px">
+                                <div style="width: 4.44487px; height: 32.4629px; display: flex; align-items: end; justify-content: center; text-align: center;">
+                                    <i class="fas fa fa-trash" style="font-size:8px;" aria-hidden="true">
+                                        <p style="font-size:2px">
+                                            <i class="fas fa fa-plus" style="font-size:8px; " i="" aria-hidden="true"></i>
+                                        </p>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="panelPieSesionActividades" id="panelPieSesionActividadesP1J1">
+                    <rect class="rectPanelPieSesionActividades" height="0" width="111.12180000000001" y="75.92581944444446" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:00 - 08:55</text>
+                </g>
+            </g>
+        </g>
+        <g id="V" class="panelDiaSemana" transform="translate(444.48720000000003,0)">
+            <line x1="111.12180000000001" y1="0" x2="111.12180000000001" y2="496.96900000000005" stroke-width="0.1" stroke="black" stroke-dasharray="1"></line>
+            <g transform="translate(0,0)" class="panelSesion" id="sesP1V1">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1V1" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">08:00 - 08:55</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1V1" height="64.92581944444446" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,75.92581944444446)" class="panelSesion" id="sesP1V2">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1V2" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">08:55 - 09:50</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1V2" height="64.92581944444446" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,151.8516388888889)" class="panelSesion" id="sesP1V3">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1V3" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">09:50 - 10:45</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1V3" height="64.92581944444444" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,269.1915416666667)" class="panelSesion" id="sesP1V4">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1V4" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">11:15 - 12:10</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1V4" height="64.92581944444441" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,345.1173611111111)" class="panelSesion" id="sesP1V5">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1V5" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">12:10 - 13:05</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1V5" height="64.92581944444447" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,421.0431805555556)" class="panelSesion" id="sesP1V6">
+                <g class="panelCabeceraSesion">
+                    <rect class="fondoPanelSesionCabecera" id="fondoPanelSesionCabeceraP1V6" height="11" width="111.12180000000001" fill="#fff"></rect>
+                    <text x="55.5" y="5.5" font-size=".5em" dominant-baseline="central" text-anchor="middle">13:05 - 14:00</text>
+                </g>
+                <g class="panelCuerpoSesion" transform="translate(0,11)">
+                    <rect class="fondoPanelSesion" id="fondoPanelSesionP1V6" height="64.92581944444447" width="111.12180000000001" fill="#f4f4f4"></rect>
+                </g>
+            </g>
+            <g transform="translate(0,0)" class="panelSesionActividades" id="panelSesionActividadesP1V1" data-actividades="346c632e-93d9-496b-b29c-0c39e2d8c6a1" data-actividadVisible="346c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                <g class="panelCabeceraSesionActividades" id="panelCabeceraSesionActividadesP1V1">
+                    <rect class="rectPanelCabeceraSesionActividades" height="22" width="111.12180000000001" rx="0" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:00 - 08:55</text>
+                    <polygon points="15,1.6111111111111112 7,5.5 15,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonIzquierdoCabeceraSesionActividades" id="botonIzquierdoCabeceraSesionActividadesP1V1"></polygon>
+                    <polygon></polygon>
+                    <polygon points="96.12180000000001,1.6111111111111112 104.12180000000001,5.5 96.12180000000001,9.38888888888889" fill="#ccc" class="botonCabeceraSesionActividades botonDerechoCabeceraSesionActividades" id="botonDerechoCabeceraSesionActividadesP1V1"></polygon>
+                </g>
+                <g class="panelCuerpoSesionActividades" id="panelCuerpoSesionActividadesP1V1" transform="translate(0,11)" clip-path="url(#rectanguloRecortadorP1V1)">
+                    <clipPath id="rectanguloRecortadorP1V1">
+                        <rect id="rectRecortadorP1V1" height="64.92581944444446" width="111.12180000000001"></rect>
+                    </clipPath>
+                    <g class="panelActividad visible" id="panelActividad_346c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(0,0)" x="0" y="0" height="64.92581944444446" altoSeccionPie="15" width="111.12180000000001">
+                        <g class="panelActividadSeccion panelActividadSeccion_1" id="panelActividadSeccion_1_346c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(4.444872,0)" x="4.444872" y="0" height="49.92581944444446" width="35.558976">
+                            <rect height="49.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_1" id="panelContenidoSeccion_1_346c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="14.962909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">3ESOA</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_1_346c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="49.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_2" id="panelActividadSeccion_2_346c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(40.003848000000005,0)" x="40.003848000000005" y="0" height="49.92581944444446" width="35.558976">
+                            <rect height="49.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_2" id="panelContenidoSeccion_2_346c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="14.962909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">TEC</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_2_346c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="49.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadSeccion panelActividadSeccion_3" id="panelActividadSeccion_3_346c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(75.562824,0)" x="75.562824" y="0" height="49.92581944444446" width="35.558976">
+                            <rect height="49.92581944444446" width="36.558976" fill="#e4fbc3"></rect>
+                            <line x1="35.558976" y1="0" x2="35.558976" y2="49.92581944444446" stroke-width="0.5" stroke="grey"></line>
+                            <g class="panelContenidoSeccion panelContenidoSeccion_3" id="panelContenidoSeccion_3_346c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                                <text x="18.27948760986328" y="14.962909698486328" font-size="15" fill="black" dominant-baseline="text-before-edge" text-anchor="middle">GYM</text>
+                            </g>
+                            <rect id="rectActivarGestionActividad_3_346c632e-93d9-496b-b29c-0c39e2d8c6a1" class="rectActivarGestionActividad" height="49.92581944444446" width="34.13661696" opacity="0"></rect>
+                        </g>
+                        <g class="panelActividadZonaSeleccion" id="panelActividadZonaSeleccion_346c632e-93d9-496b-b29c-0c39e2d8c6a1">
+                            <rect class="rectActividad" width="4.444872" height="64.92581944444446" fill="#eee"></rect>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="3px">
+                                <div style="width: 4.44487px; height: 29.4629px; text-align: center;">
+                                    <i class="fas fa fa-expand-arrows-alt" style="font-size:8px; " aria-hidden="true">
+                                        <p style="font-size:4px"></p>
+                                        <i class="fas fa fa-copy" style="font-size:8px;" i="" aria-hidden="true"></i>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                            <foreignObject width="4.444872px" height="32.46290972222223px" y="32.46290972222223px">
+                                <div style="width: 4.44487px; height: 32.4629px; display: flex; align-items: end; justify-content: center; text-align: center;">
+                                    <i class="fas fa fa-trash" style="font-size:8px;" aria-hidden="true">
+                                        <p style="font-size:2px">
+                                            <i class="fas fa fa-plus" style="font-size:8px; " i="" aria-hidden="true"></i>
+                                        </p>
+                                    </i>
+                                </div>
+                            </foreignObject>
+                        </g>
+                        <g class="panelActividadSeccionPie" id="panelActividadSeccionPie_346c632e-93d9-496b-b29c-0c39e2d8c6a1" transform="translate(4.444872,49.92581944444446)" height="15" width="106.676928">
+                            <rect height="15" width="106.676928" fill="#e4fbc3"></rect>
+                            <text x="53.338464" y="7.5" font-size="0.8em" dominant-baseline="central" text-anchor="middle">Se imparte en el Gimnasio</text>
+                            <line x1="0" y1="0" x2="106.676928" y2="0" stroke-width="0.5" stroke="grey"></line>
+                        </g>
+                    </g>
+                </g>
+                <g class="panelPieSesionActividades" id="panelPieSesionActividadesP1V1">
+                    <rect class="rectPanelPieSesionActividades" height="0" width="111.12180000000001" y="75.92581944444446" fill="#ccc"></rect>
+                    <text x="55.5" y="5.5" font-size=".6em" fill="white" dominant-baseline="central" text-anchor="middle">08:00 - 08:55</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

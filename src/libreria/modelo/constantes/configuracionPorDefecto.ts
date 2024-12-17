@@ -1,7 +1,7 @@
-import { ConfiguracionGrafico } from '../configuracionGrafico.model';
-import { IDiaSemana } from './diaSemana.model';
+import { IConfiguracionGrafico } from '../configuracionGrafico.model';
+import { IDiaSemana } from '../diaSemana.model';
 
-export const CONFIGURACION_GRAFICO: ConfiguracionGrafico = {
+export const CONFIGURACION_GRAFICO_POR_DEFECTO: IConfiguracionGrafico = {
 
   configuracionSemana: {
     horaMinima: "08:00",
