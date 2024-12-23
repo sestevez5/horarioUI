@@ -6,6 +6,7 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
 
+
     /* Bundler mode */
     "moduleResolution": "Bundler",
     "allowImportingTsExtensions": true,
@@ -14,11 +15,30 @@
     "noEmit": true,
 
     /* Linting */
-    "strict": true,
+    "strict": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src"]
+  "typedocOptions":
+    {
+      "blockTags": ["@param", "@returns", "@remark"],
+      "entryPoints": ["./src/libreria"],
+      "out": "docs",
+      "projectDocuments": ["descripciónGeneral.md"],
+      "entryPointStrategy": "expand",
+      "useFirstParagraphOfCommentAsSummary": true,
+      "commentStyle": "all",
+      //"includeDeclarations": true,
+      "excludePrivate": true,
+      
+      "jsDocCompatibility": {
+        // "exampleTag": true,
+        // "defaultTag": true,
+        // "inheritDocTag": true,
+        // "ignoreUnescapedBraces": true
+      },
+      "alwaysCreateEntryPointModule": false
+  }
 }

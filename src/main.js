@@ -1,4 +1,4 @@
-import * as hg from './libreria/horarioUI';
+import * as hg from './libreria';
 
 function init(elementoRaiz){
 
