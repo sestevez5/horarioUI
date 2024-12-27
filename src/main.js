@@ -4,7 +4,7 @@ function init(elementoRaiz){
 
 var x = new hg.HorarioUI('horarioUI')
 
-//x.generarGrafico();
+x.generarGrafico();
 
 
 

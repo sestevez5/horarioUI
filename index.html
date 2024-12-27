@@ -1,37 +1,236 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="public/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Vite + TS</title>
 
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="css/index.css"  media="screen,projection"/>
+       <!-------------------------------------->
+      <!--  ELEMENTOS OPCIONAL (PARA DEMO)  -->
+      <!-------------------------------------->
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!-- Estilo Materialize ( Solo para la demo ) -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <!-- Iconos awesome 5 -->
+            <script src="https://kit.fontawesome.com/2bfcce1720.js" crossorigin="anonymous"></script>
+      
+      <!-- Estilo de la propia demo -->
+      <link rel="stylesheet" type="text/css" href="src/style.css" />
+      <script type="module" src="src/main.js"></script>
+
   </head>
   <body>
-      <div id="horarioUI" >
-        <svg id="1"></svg>
-        <svg id="2"></svg>
+    <body>
+
+
+    <div class="contenido">
+      
+      <!-- Cabecera: mensajes de acciones realizadas por el usuario. -->
+      <div class="seccion seccionCabecera">
+          <span class="blue-text text-darken-3">Última acción: </span>
+          <span id="ultimaAccion" class="blue-text ">-- Aún no se han realizado acciones --</span>
+      </div>
+
+      <!-- Cuerpo: contiene dos paneles: Datos de la actividad (izquierdo) y horario (derecho) -->
+      <div class="seccion seccionCuerpo">
+
+        <div class="seccion seccionOpcionesGrafico">
+
+          <div class="opcion opcionConfiguracionActividades" style="padding: 6px">
+            <div class="a1">
+              <p class="cabeceraSeccionConfiguracion cabeceraSeccionConfiguracionActividades" >Configuracion actividades</p>
+            </div>
+            
+            <div class="a2 checks" style="margin-bottom: 15px; display: flex; justify-content: space-between;">
+       
+              <label>
+                <input type="checkbox"  id="mostrarBotonesAccionActividad" />
+                       <span>Barra botones</span>
+              </label>
+              <br>
+
+              <label>
+                <input type="checkbox"  id="mostrarDetalleActividad" />
+                       <span>Detalle de las actividades</span>
+              </label>
+
+              <br>
+
+              <label>
+                <input type="checkbox"  id="sobrescribirAsignaturas" />
+                       <span>Tipo de actividad</span>
+              </label>
+           
+            </div>
+          
+            <div class="a3">
+            
+              <div class="opcion opcionTamanyoLetra" >
+                      <div class="opcionSlider">
+                        <div class="etiquetaSlider">Tamaño texto:</div>
+                        <div class="slider"  style="max-height: 20px;">
+                          <input id="tamanyoTexto" type="range" min="5" max="30" step="1">
+                        </div>
+                        <div class="valorSlider" id="valorTamanyoTexto"></div>
+                      </div>
+              </div>
+
+              <div class="opcion opcionAltoSesiones" >
+                <div class="opcionSlider">
+                  <div class="etiquetaSlider">Alto sesiones:</div>
+                  <div class="slider"  style="max-height: 20px;">
+                    <input id="altoSesiones" type="range" min="0" max="4" step="0.1">
+                  </div>
+                  <div class="valorSlider" id="valorAltoSesiones"></div>
+                </div>
+              </div>
+
+              <div class="opcion opcionAnchoSesiones" >
+                <div class="opcionSlider">
+                  <div class="etiquetaSlider">Ancho sesiones:</div>
+                  <div class="slider"  style="max-height: 20px;">
+                    <input id="anchoSesiones" type="range" min="0" max="4" step="0.1">
+                  </div>
+                  <div class="valorSlider" id="valorAnchoSesiones"></div>
+                </div>
+              </div>
+
+              <div style="display: flex;">
+              <div class="input-field" style="flex-grow: 1">
+                <input placeholder="DOC, DEP, CON" id="configuracionSecciones" type="text" class="validate">
+                <label for="configuracionSecciones" >Configuración secciones</label>
+              </div>
+              <div  style="margin-left: 10px; display: flex; align-items: center;"><a id="botonAplicarConfiguracionSecciones" class="waves-effect waves-light btn">Aplicar</a></div>
+              
+              </div>
+
+            </div>
+
+              <!-- <blockquote style="text-align: justify;">
+                Las configuraciones de secciones se establecen a partir de los literales DOC (docentes), DEP (dependencias) , CON (contenido lectivo) y  GRU (grupos) separándolos por comas. Por ejemplo, añadiendo el contenido "DOC, GRU, DEP" se mostrará en la primera seccion "docentes", en la segunda "grupos" y en la tercera "dependencias". El número máximo de cadenas posibles es tres
+              </blockquote> -->
+          </div>
+  
+          <div class="opcion opcionConfiguracionSemana">
+
+            <p class="cabeceraSeccionConfiguracion cabeceraSeccionConfiguracionSemana">Configuracion semana</p>
+            <div class="opcion opcionFranjaHoraria">
+              <div class="opcion opcionHoraInicio input-field ">
+                <!-- <i class="material-icons prefix">account_circle</i> -->
+                <input id="horaInicio" type="time" class="validate" >
+                <label for="icon_prefix">Hora inicio</label>
+              </div>
+              <div class="opcion opcionHoraFin input-field ">
+                <!-- <i class="material-icons prefix">account_circle</i> -->
+                <input id="horaFin" type="time" class="validate" >
+                <label for="icon_prefix">Hora fin</label>
+              </div>
+
+            </div>
+
+            <div class="opcion opcionDiasSemana">
+              <span style="margin-right: 15px;">Días hábiles: </span>
+              <label style="margin-right: 15px;">
+                <input type="checkbox"  id="L" class="mostrarDia"  />
+                <span style="padding-right: 2px;">L</span> 
+              </label>
+
+              <label style="margin-right: 15px;">
+                <input type="checkbox"  id="M" class="mostrarDia"  />
+                <span style="padding-right: 2px;">M</span> 
+              </label>
+              
+              <label style="margin-right: 15px;">
+                <input type="checkbox"  id="X" class="mostrarDia" />
+                <span style="padding-right: 2px;">X</span> 
+              </label>
+              
+              <label style="margin-right: 15px;">
+                <input type="checkbox"  id="J" class="mostrarDia" />
+                <span style="padding-right: 2px;">J</span> 
+              </label>
+              
+              <label style="margin-right: 15px;">
+                <input type="checkbox"  id="V" class="mostrarDia" />
+                <span style="padding-right: 2px;">V</span> 
+              </label>
+              
+              <label style="margin-right: 15px;">
+                <input type="checkbox"  id="S" class="mostrarDia" />
+                <span style="padding-right: 2px;">S</span> 
+              </label>
+              
+              <label style="margin-right: 15px;">
+                <input type="checkbox"  id="D" class="mostrarDia" />
+                <span style="padding-right: 2px;">D</span> 
+              </label>
+              
+          
+            </div>
+
+          </div>
+
+          <div class="opcion opcionConfiguracionPlantilla">
+            
+            <p class="cabeceraSeccionConfiguracion cabeceraSeccionConfiguracionPlantilla">Configuracion plantilla</p>
+
+            <div opcion opcionColorSesiones>
+              <label>
+                <input type="checkbox"  id="mostrarPlantilla" />
+                       <span>Mostrar plantilla</span>
+              </label>
+            </div>
+           
+
+            <div class="opcion opcionColorSesiones">
+              <label for="icon_prefix">Color de fondo</label>
+              <input id="colorSesiones" type="color">
+            </div> 
+
+          </div>
+       
+
+        </div>
+   
+        
+        <!-- Panel derecho del cuerpo -->
+        <div class="seccion seccionHorario">
+
+          <!-- Panel izquierdo del cuerpo-->
+          <div class="seccion seccionDatos" style="padding: 8px" >
+            <h5>Datos actividad (última acción):</h5>
+            <div class="subSeccionActividad" >
+              <div class="campo" ><div class="etiquetaCampoActividad">Identificado de la actividad:</div> <div class="contenidoCampoActividad" id="act_idActividad">-- No establecida --</div></div>
+              <div class="campo"><div class="etiquetaCampoActividad">Tipo de Actividad:</div> <div class="contenidoCampoActividad" id="act_tipoActividad"></div></div>
+              <div class="campo"><div class="etiquetaCampoActividad">Sesión:</div> <span class="contenidoCampoActividad" id="act_sesion"></span></div>
+              <div class="campo"><div class="etiquetaCampoActividad">Periodo de vigencia:</div> <span class="contenidoCampoActividad" id="act_periodoVigencia"></span></div>
+              <div class="campo"><div class="etiquetaCampoActividad">Docentes que la imparten:</div> <span class="contenidoCampoActividad"  id="act_docentes"></span></div>
+              <div class="campo"><div class="etiquetaCampoActividad">Grupos:</div> <span class="contenidoCampoActividad"  id="act_grupos"></span></div>
+              <div class="campo"><div class="etiquetaCampoActividad">Espacio físico utilizado:</div> <span class="contenidoCampoActividad" id="act_espacioFisico"></span></div>
+              <div class="campo"><div class="etiquetaCampoActividad">Asignaturas impartidas:</div> <span class="contenidoCampoActividad" id="act_asignaturas"></span></div>
+              <div class="campo"><div class="etiquetaCampoActividad">Observaciones:</div> <span class="contenidoCampoActividad" id="act_observaciones"></span></div>
+            </div>
+        
+          </div>
+         
+          <!-- Panel en el que se renderiza el horario -->
+          <div class="seccion seccionGrafico" id="horarioUI">
+
+          </div>
+
+        </div>
+
       </div>
 
 
-       <!--JavaScript at end of body for optimized loading-->
-       <script type="text/javascript" src="js/materialize.min.js"></script>
-       <script type="module" src="/src/main.js"></script>
-       <script src="node_modules/snapsvg/dist/snap.svg-min.js"></script>
+    
+    </div>
+
   </body>
-  
 </html>
-
-
-
-        
