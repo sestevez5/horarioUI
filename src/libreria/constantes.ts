@@ -37,7 +37,7 @@ export const CONFIGURACION_POR_DEFECTO: IConfiguracionGrafico = {
     },
 
     panelHorario: {
-      colorPanelHorario: '#bbb',
+      colorPanelHorario: '#fff',
     },
 
   },

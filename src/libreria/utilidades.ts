@@ -25,7 +25,6 @@ export class Utilidades {
 
   }
 
-
   static convertirCadenaHorarEnTiempo(cadena:string): Date {
   const inicioHora=parseInt(cadena.substring(0, 2));
   const inicioMinuto = parseInt(cadena.substring(3, 5));
