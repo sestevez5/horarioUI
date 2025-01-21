@@ -10,7 +10,7 @@ import { renderizarPanelHorario } from "./seccionesRenderizado/panelHorario"
 import { renderizarPanelesDiasSemana } from "./seccionesRenderizado/panelesDiasSemana"
 import { renderizarPlantilla } from "./seccionesRenderizado/plantilla";
 import { renderizarActividades } from "./seccionesRenderizado/actividades";
-import { IPlantilla, ISesion } from "./modelo";
+import { IActividad, IPlantilla, ISesion } from "./modelo";
 
 
 export class HorarioUI {
@@ -35,7 +35,15 @@ export class HorarioUI {
    public renderizarGrafico(_configuracionGrafico: IConfiguracionGrafico, _plantilla?: IPlantilla) {
       window.addEventListener('resize', this.generarGrafico.bind(this, _configuracionGrafico, _plantilla));
       this.generarGrafico(_configuracionGrafico, _plantilla);
-    }
+   }
+
+   public AnyadirActividades( actividades: IActividad ) {
+
+      renderizarActividades(this.configuracion, this.svg, actividades);
+
+
+
+   }
 
    /**
     * this returns
