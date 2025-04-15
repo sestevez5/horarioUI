@@ -10,7 +10,7 @@ var configuracion = {
     grafico: {
         //pixelesPorHora:500
     },
-<<<<<<< HEAD
+
      configuracionSemana: {
    
        horaMinima: '08:00',
@@ -40,7 +40,7 @@ var plantilla =  {
 
 // 2.- plantilla que se rendeizará en el gráfico (Colecció de sesiones)
 var plantilla = {
->>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
+
     idPlantilla: '1',
     plantillaPorDefecto: true,
     denominacion: 'prueba',
@@ -85,11 +85,7 @@ var plantilla = {
         horaFin: "14:00",
         idSesion: "P1L6"
 
-<<<<<<< HEAD
     },{
-=======
-    }, {
->>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
         diaSemana: "M",
         horaInicio: "08:00",
         horaFin: "08:55",
@@ -130,11 +126,7 @@ var plantilla = {
         horaFin: "14:00",
         idSesion: "P1M6"
 
-<<<<<<< HEAD
     },{
-=======
-    }, {
->>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
         diaSemana: "X",
         horaInicio: "08:00",
         horaFin: "08:55",
