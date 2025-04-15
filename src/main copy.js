@@ -262,6 +262,7 @@ var plantilla = {
     }]
 }
 
+<<<<<<< HEAD
 var plantillaAMostrar = plantilla;
 
 var actividades = [
@@ -545,6 +546,296 @@ var actividades = [
     },
 
     detalleActividad: ""
+=======
+// 3.- colección de actividades que se renderizarán en el gráfico.
+// OBSERVACIONES: 
+// a) Igual que en ekade, su renderizado es independiente del renderizado 
+//    de la plantilla
+// b) En el caso de que hayan actividades en sesiones defindas en días
+//    de la semana que no se hayan tenido en cuenta en la configuración
+//    no habrá ningún problema. Simplemente, no serán renderizadas.
+var actividades = [
+    {
+        idActividad: '616c632e-93d9-496b-b29c-0c39e2d8c6a1',
+
+        sesion: {
+            diaSemana: 'J',
+            horaInicio: '08:55',
+            horaFin: '09:50',
+            idSesion: 'P1J2'
+        },
+
+        periodoVigencia: {
+            idPeriodoVigencia: 'ab88957d-ef61-46c1-a659-893619ea02e0',
+            denominacion: 'Curso completo',
+            fechaInicio: '20210901',
+            fechaFin: '20220630'
+        },
+
+        tipoActividad: {
+            idTipoActividad: 'cf5aa348-2dd8-4645-ada8-7e6db13ba136',
+            codigo: 'CCM',
+            denominacionLarga: 'Clase colectiva de una materia',
+            obligaDocentes: false,
+            permiteDocentes: true,
+            obligaAsignaturas: false,
+            permiteAsignaturas: true,
+            obligaGrupos: false,
+            permiteGrupos: true,
+            obligaDetalle: false,
+            permiteDetalle: true,
+            esLectiva: true,
+            tipoPredeterminado: true
+
+        },
+
+        docentes: [
+
+            {
+                idDocente: '02cd8ece-e7c9-40a7-a8a0-d661ff7aa996',
+                nombre: 'Lucía',
+                apellido1: 'Dorta',
+                apellido2: 'Dorta',
+                foto: '',
+                alias: 'sesther'
+            },
+
+            {
+                idDocente: '02cd8ece-e7c9-40a7-a8a0-d661ff7aa996',
+                nombre: 'Lucía',
+                apellido1: 'Dorta',
+                apellido2: 'Dorta',
+                foto: '',
+                alias: 'afumfer'
+            },
+
+
+        ],
+
+        asignaturas: [
+            {
+                idAsignatura: '03fb8932-2b7f-4c9c-89c8-3242e30f9ebb',
+                codigo: 'MAT',
+                denominacionLarga: 'Matemáticas'
+            },
+            {
+                idAsignatura: '21c88887-aa1b-4e67-b915-62674e1c478c',
+                codigo: 'FYQ',
+                denominacionLarga: 'Física y Química'
+            },
+
+        ],
+
+        grupos: [
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '1BACA',
+                denominacionLarga: '1º Bachillerato A'
+            },
+            {
+                idGrupo: 'c6e390b7-7d76-4556-832d-09c2cf4f36a3',
+                codigo: '1BACB',
+                denominacionLarga: '1º Bachillerato B'
+            },
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '2BACA',
+                denominacionLarga: '2º Bachillerato A'
+            },
+            {
+                idGrupo: 'c6e390b7-7d76-4556-832d-09c2cf4f36a3',
+                codigo: '2BACB',
+                denominacionLarga: 'º Bachillerato B'
+            },
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '1BACA',
+                denominacionLarga: '1º Bachillerato A'
+            },
+            {
+                idGrupo: 'c6e390b7-7d76-4556-832d-09c2cf4f36a3',
+                codigo: '1BACB',
+                denominacionLarga: '1º Bachillerato B'
+            },
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '2BACA',
+                denominacionLarga: '2º Bachillerato A'
+            },
+            {
+                idGrupo: 'c6e390b7-7d76-4556-832d-09c2cf4f36a3',
+                codigo: '2BACB',
+                denominacionLarga: 'º Bachillerato B'
+            },
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '1BACA',
+                denominacionLarga: '1º Bachillerato A'
+            },
+            {
+                idGrupo: 'c6e390b7-7d76-4556-832d-09c2cf4f36a3',
+                codigo: '1BACB',
+                denominacionLarga: '1º Bachillerato B'
+            },
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '2BACA',
+                denominacionLarga: '2º Bachillerato A'
+            },
+            {
+                idGrupo: 'c6e390b7-7d76-4556-832d-09c2cf4f36a3',
+                codigo: '2BACB',
+                denominacionLarga: 'º Bachillerato B'
+            },
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '1BACA',
+                denominacionLarga: '1º Bachillerato A'
+            },
+            {
+                idGrupo: 'c6e390b7-7d76-4556-832d-09c2cf4f36a3',
+                codigo: '1BACB',
+                denominacionLarga: '1º Bachillerato B'
+            },
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '2BACA',
+                denominacionLarga: '2º Bachillerato A'
+            },
+            {
+                idGrupo: 'c6e390b7-7d76-4556-832d-09c2cf4f36a3',
+                codigo: '2BACB',
+                denominacionLarga: 'º Bachillerato B'
+            }, {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '1BACA',
+                denominacionLarga: '1º Bachillerato A'
+            },
+            {
+                idGrupo: 'c6e390b7-7d76-4556-832d-09c2cf4f36a3',
+                codigo: '1BACB',
+                denominacionLarga: '1º Bachillerato B'
+            },
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '2BACA',
+                denominacionLarga: '2º Bachillerato A'
+            },
+            {
+                idGrupo: 'c6e390b7-7d76-4556-832d-09c2cf4f36a3',
+                codigo: '2BACB',
+                denominacionLarga: 'º Bachillerato B'
+            },
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '1BACA',
+                denominacionLarga: '1º Bachillerato A'
+            },
+            {
+                idGrupo: 'c6e390b7-7d76-4556-832d-09c2cf4f36a3',
+                codigo: '1BACB',
+                denominacionLarga: '1º Bachillerato B'
+            },
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '2BACA',
+                denominacionLarga: '2º Bachillerato A'
+            },
+            {
+                idGrupo: 'c6e390b7-7d76-4556-832d-09c2cf4f36a3',
+                codigo: '2BACB',
+                denominacionLarga: 'º Bachillerato B'
+            },
+
+
+        ],
+
+        dependencia: {
+            idDependencia: 'f217df71-a791-4439-ad5e-3460dd8b17f3',
+            codigo: 'CA01',
+            denominacionLarga: 'Cancha 1'
+        },
+
+        detalleActividad: ""
+
+    },
+    {
+        idActividad: '646c632e-93d9-496b-b29c-0c39e2d8c6a1',
+
+        sesion: {
+            diaSemana: 'M',
+            horaInicio: '08:00',
+            horaFin: '08:55',
+            idSesion: 'P1M1'
+        },
+
+        periodoVigencia: {
+            idPeriodoVigencia: 'ab88957d-ef61-46c1-a659-893619ea02e0',
+            denominacion: 'Curso completo',
+            fechaInicio: '20210901',
+            fechaFin: '20220630'
+        },
+
+        tipoActividad: {
+            idTipoActividad: 'cf5aa348-2dd8-4645-ada8-7e6db13ba136',
+            codigo: 'CCM',
+            denominacionLarga: 'Clase colectiva de una materia',
+            obligaDocentes: false,
+            permiteDocentes: true,
+            obligaAsignaturas: false,
+            permiteAsignaturas: true,
+            obligaGrupos: false,
+            permiteGrupos: true,
+            obligaDetalle: false,
+            permiteDetalle: true,
+            esLectiva: true,
+            tipoPredeterminado: true
+
+        },
+
+        docentes: [
+
+            {
+                idDocente: 'f935e30d-7d90-411c-86c6-3618a8cea0f9',
+                nombre: 'Edita',
+                apellido1: 'Martín',
+                apellido2: 'Sanabria',
+                foto: '',
+                alias: 'emarsan'
+            },
+
+
+
+        ],
+
+        asignaturas: [
+            {
+                idAsignatura: '03fb8932-2b7f-4c9c-89c8-3242e30f9ebb',
+                codigo: 'MII',
+                denominacionLarga: 'Matemáticas I'
+            }
+
+
+        ],
+
+        grupos: [
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '1BACA',
+                denominacionLarga: '1º Bachillerato A'
+            }
+
+
+        ],
+
+        dependencia: {
+            idDependencia: 'f217df71-a791-4439-ad5e-3460dd8b17f3',
+            codigo: '3.1',
+            denominacionLarga: 'Aula 3.1'
+        },
+
+        detalleActividad: ""
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 
     },
     {
@@ -582,7 +873,11 @@ var actividades = [
         },
 
         docentes: [
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             {
                 idDocente: 'f935e30d-7d90-411c-86c6-3618a8cea0f9',
                 nombre: 'Edita',
@@ -591,7 +886,11 @@ var actividades = [
                 foto: '',
                 alias: 'emarsan'
             },
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 
 
         ],
@@ -605,14 +904,18 @@ var actividades = [
 
         ],
 
+<<<<<<< HEAD
         grupos: [ 
+=======
+        grupos: [
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             {
                 idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
                 codigo: '1BACA',
                 denominacionLarga: '1º Bachillerato A'
             }
 
-.
+
         ],
 
         dependencia: {
@@ -659,7 +962,11 @@ var actividades = [
         },
 
         docentes: [
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             {
                 idDocente: 'f935e30d-7d90-411c-86c6-3618a8cea0f9',
                 nombre: 'Edita',
@@ -668,7 +975,11 @@ var actividades = [
                 foto: '',
                 alias: 'emarsan'
             },
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 
 
         ],
@@ -682,7 +993,11 @@ var actividades = [
 
         ],
 
+<<<<<<< HEAD
         grupos: [ 
+=======
+        grupos: [
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             {
                 idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
                 codigo: '1BACA',
@@ -736,7 +1051,11 @@ var actividades = [
         },
 
         docentes: [
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             {
                 idDocente: 'f935e30d-7d90-411c-86c6-3618a8cea0f9',
                 nombre: 'Edita',
@@ -745,7 +1064,11 @@ var actividades = [
                 foto: '',
                 alias: 'emarsan'
             },
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 
 
         ],
@@ -759,7 +1082,11 @@ var actividades = [
 
         ],
 
+<<<<<<< HEAD
         grupos: [ 
+=======
+        grupos: [
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             {
                 idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
                 codigo: '1BACA',
@@ -813,7 +1140,11 @@ var actividades = [
         },
 
         docentes: [
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             {
                 idDocente: 'f935e30d-7d90-411c-86c6-3618a8cea0f9',
                 nombre: 'Edita',
@@ -822,7 +1153,11 @@ var actividades = [
                 foto: '',
                 alias: 'emarsan'
             },
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 
 
         ],
@@ -836,7 +1171,11 @@ var actividades = [
 
         ],
 
+<<<<<<< HEAD
         grupos: [ 
+=======
+        grupos: [
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             {
                 idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
                 codigo: '3ESOA',
@@ -890,7 +1229,11 @@ var actividades = [
         },
 
         docentes: [
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             {
                 idDocente: 'f935e30d-7d90-411c-86c6-3618a8cea0f9',
                 nombre: 'Edita',
@@ -899,7 +1242,11 @@ var actividades = [
                 foto: '',
                 alias: 'emarsan'
             },
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 
 
         ],
@@ -913,7 +1260,11 @@ var actividades = [
 
         ],
 
+<<<<<<< HEAD
         grupos: [ 
+=======
+        grupos: [
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             {
                 idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
                 codigo: '3ESOA',
@@ -967,7 +1318,11 @@ var actividades = [
         },
 
         docentes: [
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             {
                 idDocente: 'f935e30d-7d90-411c-86c6-3618a8cea0f9',
                 nombre: 'Edita',
@@ -976,7 +1331,11 @@ var actividades = [
                 foto: '',
                 alias: 'jlopbonu'
             },
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 
 
         ],
@@ -990,7 +1349,11 @@ var actividades = [
 
         ],
 
+<<<<<<< HEAD
         grupos: [ 
+=======
+        grupos: [
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             {
                 idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
                 codigo: '1BACA',
@@ -1118,11 +1481,19 @@ var actividades = [
             }
         ],
 
+<<<<<<< HEAD
         grupos: [ 
             {
             idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
             codigo: '3ESOB',
             denominacionLarga: '3º ESO A'
+=======
+        grupos: [
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '3ESOB',
+                denominacionLarga: '3º ESO A'
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             }
         ],
 
@@ -1170,7 +1541,11 @@ var actividades = [
         },
 
         docentes: [
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             {
                 idDocente: '387a0e4e-4eef-4736-85ac-4236f72e03c3',
                 nombre: 'Santiago',
@@ -1229,11 +1604,19 @@ var actividades = [
             }
         ],
 
+<<<<<<< HEAD
         grupos: [ 
             {
             idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
             codigo: '3ESOB',
             denominacionLarga: '3º ESO A'
+=======
+        grupos: [
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '3ESOB',
+                denominacionLarga: '3º ESO A'
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             }
         ],
 
@@ -1315,11 +1698,19 @@ var actividades = [
             }
         ],
 
+<<<<<<< HEAD
         grupos: [ 
             {
             idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
             codigo: '3ESOC',
             denominacionLarga: '3º ESO A'
+=======
+        grupos: [
+            {
+                idGrupo: 'c93eeb67-df6b-4d99-9d52-ecbab0cad82d',
+                codigo: '3ESOC',
+                denominacionLarga: '3º ESO A'
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
             }
         ],
 
@@ -1367,6 +1758,7 @@ var actividades = [
         },
 
         docentes: [
+<<<<<<< HEAD
             
         ],
 
@@ -1381,12 +1773,29 @@ var actividades = [
 
         dependencia: {
         
+=======
+
+        ],
+
+        asignaturas: [
+
+        ],
+
+        grupos: [
+
+
+        ],
+
+        dependencia: {
+
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
         },
 
         detalleActividad: "Se imparte en el Gimnasio"
 
     },
 
+<<<<<<< HEAD
      
      
 ]
@@ -1542,6 +1951,11 @@ function iniciarParametros(){
 
     //     graficoHorario.renderizarGrafico( configuracion, plantillaAMostrar )
     // } );
+=======
+
+
+]
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 
 
 
@@ -1556,6 +1970,7 @@ function iniciarParametros(){
     // } );
 
 
+<<<<<<< HEAD
    
   
 
@@ -1572,6 +1987,14 @@ iniciarParametros();
 
 graficoHorario.renderizarGrafico(configuracion, plantilla);
 graficoHorario.actualizarActividades(actividades);
+=======
+function init(elementoRaiz) {
+
+    var x = new hg.HorarioUI('horarioUI')
+
+    x.renderizarGrafico(configuracion, plantilla);
+    x.AnyadirActividades(actividades);
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 
 
 
