@@ -9,7 +9,7 @@ import { establecerConfiguracion } from "./seccionesRenderizado/establecerConfig
 import { renderizarPanelHorario } from "./seccionesRenderizado/panelHorario"
 import { renderizarPanelesDiasSemana } from "./seccionesRenderizado/panelesDiasSemana"
 import { renderizarPlantilla } from "./seccionesRenderizado/plantilla";
-import { renderizarActividades } from "./seccionesRenderizado/actividades";
+import { InterfazActividades} from "./seccionesRenderizado/actividades";
 import { Actividad, ActividadG, IPlantilla, ISesion } from "./modelo";
 import { Utilidades } from "./utilidades";
 
@@ -56,8 +56,12 @@ export class HorarioUI {
       Utilidades.calcularFactorAnchoActividadesG(actividadesG, actividadesG);
      
       Utilidades.calcularColoresActividadesG(actividadesG, this.configuracion);
+
+      var interfazActividades: InterfazActividades = new InterfazActividades(this.configuracion, this.svg, actividadesG);
+
+      interfazActividades.renderizarActividades();
   
-      renderizarActividades(this.configuracion, this.svg, actividadesG);
+     
   
     }
   
