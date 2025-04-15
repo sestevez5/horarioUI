@@ -26,7 +26,7 @@ var configuracion = {
    
    // 2.- plantilla que se rendeizará en el gráfico (Colecció de sesiones)
 var plantilla =  {
-=======
+
     configuracionSemana: {
 
         horaMinima: '08:00',
@@ -612,7 +612,6 @@ var actividades = [
                 denominacionLarga: '1º Bachillerato A'
             }
 
-.
         ],
 
         dependencia: {
