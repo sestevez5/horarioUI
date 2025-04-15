@@ -1,12 +1,7 @@
 
-<<<<<<< HEAD
 import { ActividadG, IActividadesSesion } from '../modelo';
 import { Utilidades } from '../utilidades'
 
-=======
-import { IActividad } from '../modelo';
-import { IActividad } from '../modelo';
->>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 import { IConfiguracionGrafico } from '../parametros'
 import * as d3 from 'd3';
 

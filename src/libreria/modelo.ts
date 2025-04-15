@@ -65,21 +65,6 @@ export interface ISesion {
   horaFin: string;
 }
 
-<<<<<<< HEAD
-=======
-export interface IAlumno {
-  idAlumno: string;
-  idGrupo: string;
-  email: string;
-  foto: string;
-  primerApellido: string;
-  segundoApellido: string;
-  nombre: string;
-  denominacionLarga: string;
-
-}
-
->>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 export interface ITipoActividad {
   idTipoActividad: string;
   codigo: string;
@@ -97,7 +82,6 @@ export interface ITipoActividad {
 
 }
 
-<<<<<<< HEAD
 export interface IAlumno {
   idAlumno: string;
   idGrupo: string;
@@ -110,8 +94,6 @@ export interface IAlumno {
 
 }
 
-=======
->>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 export interface IActividad {
   idActividad: string;
   idSesion: string;
@@ -122,7 +104,6 @@ export interface IActividad {
   dependencia: string;
   idPeriodoVigencia: string;
   idTipoActividad: string;
-<<<<<<< HEAD
 }
 
 export interface IActividadesSesion {
@@ -131,11 +112,6 @@ export interface IActividadesSesion {
 }
 
 
-=======
-  color: string;
-}
-
->>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 export class Actividad {
   public tipoActividad: ITipoActividad;
   public idActividad: string;
@@ -170,17 +146,11 @@ export class Actividad {
       asignaturas: this.asignaturas.map(asignatura => asignatura.idAsignatura),
       dependencia: this.dependencia.idDependencia,
       idPeriodoVigencia: this.periodoVigencia.idPeriodoVigencia,
-<<<<<<< HEAD
       idTipoActividad: this.tipoActividad.idTipoActividad
-=======
-      idTipoActividad: this.tipoActividad.idTipoActividad,
-      color:''
->>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
     }
   }
 }
 
-<<<<<<< HEAD
 export class ActividadG extends Actividad{
 
   nivelAncho: number;
@@ -213,5 +183,3 @@ export enum EstadoActividad {
   ELIMINADA = 2,
   SINCAMBIOS = 3
 }
-=======
->>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
