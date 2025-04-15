@@ -9,12 +9,17 @@ export function establecerConfiguracion(_elementoRaiz: any, _configuracion: ICon
 
       // Iniciamos la configuración con sus valores por defecto y, a partir de los parámetros de entradas,
       // alteramos su contenido.
-      var configuracion: IConfiguracionGrafico = CONFIGURACION_POR_DEFECTO
+      var configuracion: IConfiguracionGrafico = _configuracion
 
       // Modificamos la configuración por defecto, en caso de que haya parámetros de entrada
-      if (_parametros) {
 
-      }
+
+      _parametros.configuracionSemana.diasSemanaHabiles?configuracion.configuracionSemana.diasSemanaHabiles = _parametros.configuracionSemana.diasSemanaHabiles:null;
+      _parametros.configuracionSemana.horaMinima?configuracion.configuracionSemana.horaMinima = _parametros.configuracionSemana.horaMinima:null;
+      _parametros.configuracionSemana.horaMaxima?configuracion.configuracionSemana.horaMaxima = _parametros.configuracionSemana.horaMaxima:null;
+
+
+      
 
 
       // estableciendo rango en tiempo
@@ -68,6 +73,19 @@ export function establecerConfiguracion(_elementoRaiz: any, _configuracion: ICon
       svg.attr("margin", "0px");
 
       configuracion.grafico.ejes.tamanyoLetra=20;
+
+          // Establecer escala horizontal: Serán bandas que identifiquen a los días de la semana
+    configuracion.escalas.escalaHorizontal = d3.scaleBand()
+    .domain(Utilidades.obtenerDiasSemanaHorario(configuracion).map(ds=> ds.denominacion))
+    .range([0, configuracion.grafico.panelHorario.ancho])
+    .paddingInner(0.0)
+    .paddingOuter(0.0);
+
+  // Establecer escala vertical:
+  configuracion.escalas.escalaVertical = d3.scaleTime()
+    .domain([Utilidades.minimoIntervaloTemporal(configuracion), Utilidades.maximoIntervaloTemporal(configuracion)])
+    .range([0, configuracion.grafico.panelHorario.alto]);
+
 
       configuracion.panelSesiones.anchoSesion = parseFloat(configuracion.grafico.ejes.escalaHorizontal.bandwidth());
 

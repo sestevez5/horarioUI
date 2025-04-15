@@ -33,7 +33,7 @@ export interface IConfiguracionGrafico {
     rangoEnTiempo: {
       horaInicio: Date,
       horaFin: Date
-    }
+    },
 
     
     panelHorario: {
@@ -46,12 +46,6 @@ export interface IConfiguracionGrafico {
 
 
   }
-
-  
-
-    
-    
-
 
   panelDiaSemana?: {
     //colorPanelDiaSemana: string;
@@ -66,9 +60,12 @@ export interface IConfiguracionGrafico {
     altoPie: number;
     colorCabecera: string;
     colorCuerpo: string;
-
   }
 
+  escalas?: {
+    escalaVertical: any;
+    escalaHorizontal: any;
+  }
 
   actividades?: {
     tamanyoTexto?: string;

@@ -63,6 +63,11 @@ export const CONFIGURACION_POR_DEFECTO: IConfiguracionGrafico = {
 
   },
 
+  escalas: {
+    escalaVertical: undefined,
+    escalaHorizontal: undefined
+  },
+
 
   actividades: {
     tamanyoTexto: '15',

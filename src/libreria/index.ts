@@ -10,7 +10,8 @@ import { renderizarPanelHorario } from "./seccionesRenderizado/panelHorario"
 import { renderizarPanelesDiasSemana } from "./seccionesRenderizado/panelesDiasSemana"
 import { renderizarPlantilla } from "./seccionesRenderizado/plantilla";
 import { renderizarActividades } from "./seccionesRenderizado/actividades";
-import { IPlantilla, ISesion } from "./modelo";
+import { Actividad, ActividadG, IPlantilla, ISesion } from "./modelo";
+import { Utilidades } from "./utilidades";
 
 
 export class HorarioUI {
@@ -27,22 +28,46 @@ export class HorarioUI {
 
    constructor(identificadorElementoRaiz: string) {
       this.elementoRaiz = d3.select('div#' + identificadorElementoRaiz)
-      
       window.addEventListener('resize', this.generarGrafico.bind(this, this.configuracion, this.plantilla));
- 
+   
    }
 
    public renderizarGrafico(_configuracionGrafico: IConfiguracionGrafico, _plantilla?: IPlantilla) {
       window.addEventListener('resize', this.generarGrafico.bind(this, _configuracionGrafico, _plantilla));
       this.generarGrafico(_configuracionGrafico, _plantilla);
+
+   }
+
+   public obtenerConfiguracion(): IConfiguracionGrafico{
+
+      return this.configuracion;
+  
     }
+   public actualizarActividades(actividades: Actividad[]) {
+
+      var actividadesG = [];
+      actividades.forEach(
+        act => {
+          const nuevaActividadG = new ActividadG(act);
+          actividadesG.push(nuevaActividadG);
+        }
+      );
+  
+      Utilidades.calcularFactorAnchoActividadesG(actividadesG, actividadesG);
+     
+      Utilidades.calcularColoresActividadesG(actividadesG, this.configuracion);
+  
+      renderizarActividades(this.configuracion, this.svg, actividadesG);
+  
+    }
+  
 
    /**
     * this returns
     * 
     * @param configuracionPersonalizada Esto es una prueba
    */
-   private generarGrafico(_parametros?: IParametrosEntrada, _plantilla?: IPlantilla) {
+   private generarGrafico(_parametros?: IParametrosEntrada, _plantilla?: IPlantilla ) {
 
       // 1.- establecer como elemento único del "div" un svg. Limpiamos lo exitente y creamos el svg
       this.elementoRaiz.selectAll('*').remove();
@@ -65,10 +90,18 @@ export class HorarioUI {
       }
       
 
-      // 6.- Renderizar las actividades.
-      renderizarActividades(this.configuracion, this.svg);
    }
+
+
+
+
+
+
 
 }
 
 
+
+
+      // // 6.- Renderizar las actividades.
+      // renderizarActividades(this.configuracion, this.svg);
