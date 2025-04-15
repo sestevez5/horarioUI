@@ -21,7 +21,7 @@ export function renderizarPlantilla(_configuracion: IConfiguracionGrafico, _svg:
 
 }
 
-function renderizarSesiones(_configuracion: IConfiguracionGrafico, idPanelDiaSemana: string, _sesiones: ISesion[],_seleccionSesion$: Subject<ISesion>) {
+function renderizarSesiones(_configuracion: IConfiguracionGrafico, idPanelDiaSemana: string, _sesiones: ISesion[], _seleccionSesion$: Subject<ISesion>) {
 
     const panelDiaSemana = d3.select('#' + idPanelDiaSemana);
 
@@ -30,34 +30,33 @@ function renderizarSesiones(_configuracion: IConfiguracionGrafico, idPanelDiaSem
         .attr('transform', d => `translate(0,${_configuracion.grafico.ejes.escalaVertical(Utilidades.convertirCadenaHoraEnTiempo(d.horaInicio))})`)
         .attr('class', 'panelSesion')
         .attr('id', d => 'sesion_' + d.idSesion)
-        .on("click", (d: any, e:any) => {
+        .on("click", (d: any, e: any) => {
             _seleccionSesion$.next(e);
-          });
+        });
 
     renderizarCabeceraSesiones(panelesSesiones, _configuracion);
     renderizarCuerpoSesiones(panelesSesiones, _configuracion);
 }
 
+function renderizarCabeceraSesiones(panelesSesiones: any, _configuracion: IConfiguracionGrafico) {
 
-function renderizarCabeceraSesiones(panelesSesiones: any, _configuracion:IConfiguracionGrafico) {
+    const anchoSesion: number = _configuracion.panelSesiones.anchoSesion;
+    const altoCabecera: number = _configuracion.panelSesiones.altoCabecera
 
-        const anchoSesion: number = _configuracion.panelSesiones.anchoSesion;
-        const altoCabecera: number = _configuracion.panelSesiones.altoCabecera
-
-        // Creación de la cabecera de la sesión
-        const panelesCabeceraSesion = panelesSesiones.append('g')
+    // Creación de la cabecera de la sesión
+    const panelesCabeceraSesion = panelesSesiones.append('g')
         .attr('class', 'panelCabeceraSesion')
-        .attr('id', d => 'cabeceraSesion_'+d.idSesion)
-    
-    
-        panelesCabeceraSesion.append('rect')
+        .attr('id', d => 'cabeceraSesion_' + d.idSesion)
+
+
+    panelesCabeceraSesion.append('rect')
         .attr('class', 'fondoPanelSesionCabecera')
         .attr('id', d => 'fondoPanelSesionCabecera' + d.idSesion)
         .attr('height', altoCabecera)
         .attr('width', anchoSesion)
         .attr('fill', _configuracion.panelSesiones.colorCabecera);
 
-        panelesCabeceraSesion.append('text')
+    panelesCabeceraSesion.append('text')
         .attr('x', anchoSesion / 2)
         .text(d => d.horaInicio + ' - ' + d.horaFin)
         .attr('y', altoCabecera / 2)
@@ -67,7 +66,7 @@ function renderizarCabeceraSesiones(panelesSesiones: any, _configuracion:IConfig
 
 }
 
-function renderizarCuerpoSesiones(panelesSesiones: any, _configuracion:IConfiguracionGrafico) {
+function renderizarCuerpoSesiones(panelesSesiones: any, _configuracion: IConfiguracionGrafico) {
 
     const anchoSesion: number = _configuracion.panelSesiones.anchoSesion;
     const altoCabecera: number = _configuracion.panelSesiones.altoCabecera;
@@ -75,21 +74,21 @@ function renderizarCuerpoSesiones(panelesSesiones: any, _configuracion:IConfigur
 
     // Creación de la cabecera de la sesión
     const panelesCuerpoSesion = panelesSesiones.append('g')
-    .attr('class', 'panelCuerpoSesion')
-    .attr('id', d => 'cuerpoSesion_'+d.idSesion)
-    .attr('transform', `translate(0,${altoCabecera})`);
+        .attr('class', 'panelCuerpoSesion')
+        .attr('id', d => 'cuerpoSesion_' + d.idSesion)
+        .attr('transform', `translate(0,${altoCabecera})`);
 
 
     panelesCuerpoSesion.append('rect')
-    .attr('class', 'fondoPanelSesion')
-    .attr('id', d => 'fondoPanelSesion_' + d.idSesion)
-    .attr('height', (d: ISesion) => {
-        const coordenadaHoraInicio = escalaVertical(Utilidades.convertirCadenaHoraEnTiempo(d.horaInicio));
-        const coordenadaHoraFin = escalaVertical(Utilidades.convertirCadenaHoraEnTiempo(d.horaFin));
-        return coordenadaHoraFin - coordenadaHoraInicio - altoCabecera;
-      })
-    .attr('width', anchoSesion)
-    .attr('fill', _configuracion.panelSesiones.colorCuerpo);
+        .attr('class', 'fondoPanelSesion')
+        .attr('id', d => 'fondoPanelSesion_' + d.idSesion)
+        .attr('height', (d: ISesion) => {
+            const coordenadaHoraInicio = escalaVertical(Utilidades.convertirCadenaHoraEnTiempo(d.horaInicio));
+            const coordenadaHoraFin = escalaVertical(Utilidades.convertirCadenaHoraEnTiempo(d.horaFin));
+            return coordenadaHoraFin - coordenadaHoraInicio - altoCabecera;
+        })
+        .attr('width', anchoSesion)
+        .attr('fill', _configuracion.panelSesiones.colorCuerpo);
 
     // panelesCuerpoSesion.append('text')
     // .attr('x', anchoSesion / 2)

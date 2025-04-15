@@ -1,7 +1,12 @@
 
+<<<<<<< HEAD
 import { ActividadG, IActividadesSesion } from '../modelo';
 import { Utilidades } from '../utilidades'
 
+=======
+import { IActividad } from '../modelo';
+import { IActividad } from '../modelo';
+>>>>>>> 10217517465eed0983d1272e280853c5bf1dfa9b
 import { IConfiguracionGrafico } from '../parametros'
 import * as d3 from 'd3';
 
@@ -9,6 +14,35 @@ import * as d3 from 'd3';
 
 
 export function renderizarActividades(_configuracion: IConfiguracionGrafico, _svg: any, actividades: ActividadG[]) {
+
+
+    console.log(actividades);
+    calcularColoresActividades(actividades,_configuracion.actividades.criterioColoreado);
+
+
+
+}
+
+function calcularColoresActividades(actividades: IActividad[], criterioColoreado: string )
+{
+
+    switch (criterioColoreado) {
+        case 'TIPO_ACTIVIDAD':
+          this.colorearActividadesPorTipoActividad(actividades);
+        break;
+  
+        case 'CONTENIDO':
+          this.colorearActividadesPorContenido(actividades);
+        break;
+  
+        case 'GRUPOS':
+          this.colorearActividadesPorGrupos(actividades);
+        break;
+      
+        default:
+          this.colorearActividadesPorTipoActividad(actividades);
+        break;
+      }
 
 
 
