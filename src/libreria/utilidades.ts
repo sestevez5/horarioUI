@@ -250,6 +250,44 @@ static calcularFactorAnchoActividadesG(actsG: ActividadG[], actividades: Activid
     return horaMaxima.setMinutes(horaMaxima.getMinutes()) as Date;
   }
 
+  static altoPanel(configuracionGrafico: IConfiguracionGrafico, sesion: ISesion) {
+    const coordenadaHoraInicio =  configuracionGrafico.escalas.escalaVertical(Utilidades.convertirCadenaHoraEnTiempo(sesion.horaInicio));
+    const coordenadaHoraFin = configuracionGrafico.escalas.escalaVertical(Utilidades.convertirCadenaHoraEnTiempo(sesion.horaFin));
+    return coordenadaHoraFin - coordenadaHoraInicio;
+  }
+
+
+  
+  static desmarcarActividadesComoSeleccionadas(actividades: ActividadG[], identificadoresActividades?: string[], ) {
+
+    if (!identificadoresActividades) {
+      d3.selectAll('g.panelActividad').select('.rectActividadSeleccionada').remove()
+    } else
+    {
+      actividades
+        .filter(actG => identificadoresActividades.includes(actG.idActividad))
+        .forEach(actG => d3.select('g#panelActividad' + actG.idActividad).select('.rectActividadSeleccionada').remove()
+        )
+    }
+  }
+  static marcarActividadesComoSeleccionadas(identificadoresActividades: string[]) {
+    identificadoresActividades.forEach(
+      iact => {
+        const x = d3.select('g#panelActividad_' + iact).select('.panelActividadZonaSeleccion')
+
+        const y: any = x.select('.rectActividad');
+
+        x.append('rect')
+          .attr('width', y.attr('width'))
+          .attr('height', y.attr('height'))
+          .attr('class', 'rectActividadSeleccionada').attr('fill', 'url(#x)')
+
+      }
+    
+    )
+  }
+  
+
 
 
 }

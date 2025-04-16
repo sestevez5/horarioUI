@@ -57,7 +57,7 @@ export class HorarioUI {
      
       Utilidades.calcularColoresActividadesG(actividadesG, this.configuracion);
 
-      var interfazActividades: InterfazActividades = new InterfazActividades(this.configuracion, this.svg, actividadesG);
+      var interfazActividades: InterfazActividades = new InterfazActividades(this.configuracion, actividadesG);
 
       interfazActividades.renderizarActividades();
   

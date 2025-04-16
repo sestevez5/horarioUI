@@ -18,25 +18,22 @@ var configuracion = {
        diasSemanaHabiles: ['L','M','X','J','V']
    
      },
+
+     actividades: {
+        //tamanyoTexto: '54'
+        mostrarPanelAcciones: true,
+        // contenidoSecciones: ["GRU","DOC","DEP"], // Cadenas posibles: 'DEP': dependencias. 'DOC': docentes, 'CON': contenido lectivo, 'GRU': grupos.
+        mostrarSeccionPie: true,
+        criterioColoreado: 'CONTENIDO',  //Valores posibles: TIPO_ACTIVIDAD, CONTENIDO
+        
+        
+      },
    
    
    }
     
    
-   
-   // 2.- plantilla que se rendeizará en el gráfico (Colecció de sesiones)
-var plantilla =  {
 
-    configuracionSemana: {
-
-        horaMinima: '08:00',
-        horaMaxima: '14:00',
-        diasSemanaHabiles: ['L', 'M', 'X', 'J', 'V']
-
-    },
-
-
-}
 
 // 2.- plantilla que se rendeizará en el gráfico (Colecció de sesiones)
 var plantilla = {

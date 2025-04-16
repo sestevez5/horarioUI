@@ -1,11 +1,10 @@
-import { CONFIGURACION_POR_DEFECTO } from '../constantes';
 import * as d3 from "d3";
 import { IConfiguracionGrafico, IParametrosEntrada } from '../parametros'
 import { Utilidades } from '../utilidades';
 
 
 
-export function establecerConfiguracion(_elementoRaiz: any, _configuracion: IConfiguracionGrafico, _parametros?: IParametrosEntrada) {
+export function establecerConfiguracion(_elementoRaiz: any, _configuracion: IConfiguracionGrafico, _parametros: IParametrosEntrada) {
 
       // Iniciamos la configuración con sus valores por defecto y, a partir de los parámetros de entradas,
       // alteramos su contenido.
@@ -17,7 +16,11 @@ export function establecerConfiguracion(_elementoRaiz: any, _configuracion: ICon
       _parametros.configuracionSemana.diasSemanaHabiles?configuracion.configuracionSemana.diasSemanaHabiles = _parametros.configuracionSemana.diasSemanaHabiles:null;
       _parametros.configuracionSemana.horaMinima?configuracion.configuracionSemana.horaMinima = _parametros.configuracionSemana.horaMinima:null;
       _parametros.configuracionSemana.horaMaxima?configuracion.configuracionSemana.horaMaxima = _parametros.configuracionSemana.horaMaxima:null;
+      configuracion.actividades.mostrarPanelAcciones = _parametros.actividades?.mostrarPanelAcciones? true: false;
+      configuracion.actividades.mostrarSeccionPie = _parametros.actividades?.mostrarSeccionPie? true: false;
 
+
+   
 
       
 
